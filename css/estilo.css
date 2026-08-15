@@ -115,7 +115,7 @@
 .proceso {
     background-color: var(--color-primario);
     color: var(--color-blanco);
-    padding: 70px 10%;
+    padding: 90px 8% 80px;
     border-radius: 20px;
     margin-bottom: 80px;
     text-align: center;
@@ -133,14 +133,43 @@
 }
 
 .pasos {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 55px;
+}
+
+.pasos::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 12.5%;
+    right: 12.5%;
+    height: 0;
+    border-top: 2px dashed rgba(255, 255, 255, 0.35);
+    z-index: 0;
 }
 
 .paso {
+    position: relative;
+    z-index: 1;
     text-align: center;
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+.paso-icon {
+    width: 26px;
+    height: 26px;
+    margin: 0 auto 10px;
+    color: var(--color-fondo);
+    opacity: 0.9;
+}
+
+.paso-icon svg {
+    width: 100%;
+    height: 100%;
 }
 
 .paso .numero {
@@ -156,12 +185,18 @@
     font-family: var(--fuente-titulo);
     font-size: 1.6rem;
     font-weight: 700;
+    position: relative;
+    z-index: 1;
 }
 
 .paso h3 {
     color: var(--color-blanco);
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
+    min-height: 2.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .paso p {
@@ -183,14 +218,21 @@
 }
 
 .grid-equipo {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
-    max-width: 960px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .equipo-card {
+    flex: 0 1 250px;
+    max-width: 250px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--color-blanco);
     border-radius: 14px;
     padding: 30px 20px;
@@ -210,6 +252,7 @@
     border-radius: 50%;
     margin: 0 auto 16px;
     border: 3px solid var(--color-secundario);
+    flex-shrink: 0;
 }
 
 .equipo-card h3 {
@@ -218,9 +261,13 @@
 }
 
 .equipo-card p {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: var(--color-texto);
     opacity: 0.8;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 
@@ -309,6 +356,21 @@
 
     .proceso {
         border-radius: 0;
-        padding: 50px 6%;
+        padding: 60px 6%;
+    }
+
+    .pasos {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 45px;
+    }
+
+    .pasos::before {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .pasos {
+        grid-template-columns: 1fr;
     }
 }
