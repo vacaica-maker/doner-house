@@ -204,8 +204,200 @@
     opacity: 0.85;
 }
 
+/* ========================================================
+   NUMBERED SECTIONS (within subpages)
+======================================================== */
+.seccion {
+    scroll-margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.seccion h2 {
+    font-size: 1.7rem;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-primario);
+}
+
+.subseccion {
+    scroll-margin-top: 90px;
+    margin: 26px 0 26px 20px;
+}
+
+.subseccion h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: var(--color-primario);
+}
+
+.subsubseccion {
+    scroll-margin-top: 90px;
+    margin: 20px 0 20px 20px;
+}
+
+.subsubseccion h4 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.seccion > p, .subseccion > p {
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+/* ========================================================
+   CHECK LIST (characteristics)
+======================================================== */
+.check-list {
+    list-style: none;
+    background-color: var(--color-blanco);
+    border-radius: 12px;
+    padding: 10px 24px;
+    box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
+    margin-bottom: 20px;
+}
+
+.check-list li {
+    padding: 12px 0;
+    border-bottom: 1px dashed rgba(157, 145, 103, 0.35);
+}
+
+.check-list li:last-child {
+    border-bottom: none;
+}
+
+.check-list .muted {
+    opacity: 0.75;
+    font-size: 0.92rem;
+}
+
+/* ========================================================
+   MATRIX TABLES (EFE / CPM / evaluation matrices)
+======================================================== */
+.matrix-table-wrap {
+    overflow-x: auto;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
+}
+
+.matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--color-blanco);
+    font-size: 0.9rem;
+    min-width: 560px;
+}
+
+.matrix-table th {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    text-align: left;
+    padding: 12px 16px;
+    font-weight: 600;
+}
+
+.matrix-table td {
+    padding: 10px 16px;
+    border-bottom: 1px solid rgba(157, 145, 103, 0.25);
+}
+
+.matrix-table tr.matrix-group td {
+    background-color: var(--color-superficie);
+    font-weight: 700;
+    color: var(--color-primario);
+}
+
+.matrix-table tr.matrix-total td {
+    font-weight: 700;
+    border-top: 2px solid var(--color-primario);
+    border-bottom: none;
+}
+
+/* ========================================================
+   TABLE OF CONTENTS (index.html)
+======================================================== */
+.toc-chapter {
+    font-family: var(--fuente-titulo);
+    font-size: 1.5rem;
+    color: var(--color-texto);
+    margin: 36px 0 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-primario);
+}
+
+.toc-chapter:first-child {
+    margin-top: 0;
+}
+
+.toc-link-2 {
+    display: block;
+    text-decoration: none;
+    color: var(--color-texto);
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 10px 16px;
+    margin: 6px 0 6px 20px;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.toc-link-2:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-primario);
+}
+
+.toc-link-3 {
+    display: block;
+    text-decoration: none;
+    color: var(--color-texto);
+    font-size: 0.95rem;
+    opacity: 0.9;
+    padding: 6px 16px;
+    margin: 2px 0 2px 50px;
+    border-radius: 6px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.toc-link-3:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-primario);
+    opacity: 1;
+}
+
+.toc-link-4 {
+    display: block;
+    text-decoration: none;
+    color: var(--color-texto);
+    font-size: 0.88rem;
+    opacity: 0.8;
+    padding: 4px 16px;
+    margin: 2px 0 2px 80px;
+    border-radius: 6px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.toc-link-4:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-primario);
+    opacity: 1;
+}
+
 @media (max-width: 700px) {
     .pagina-hero h1 {
         font-size: 2rem;
+    }
+
+    .subseccion, .subsubseccion {
+        margin-left: 10px;
+    }
+
+    .toc-link-3 {
+        margin-left: 30px;
+    }
+
+    .toc-link-4 {
+        margin-left: 45px;
     }
 }

@@ -51,8 +51,8 @@ img {
    HEADER / NAVBAR
 ======================================================== */
 .navbar {
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
+    background-color: var(--color-texto);
+    color: var(--color-blanco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +66,7 @@ img {
 .navbar .logo a {
     font-size: 1.9rem;
     text-decoration: none;
-    color: var(--color-texto);
+    color: var(--color-blanco);
 }
 
 .navbar nav {
@@ -79,13 +79,13 @@ img {
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
-    color: var(--color-texto);
+    color: var(--color-blanco);
     transition: color 0.3s ease;
     cursor: pointer;
 }
 
 .navbar nav > a:hover {
-    color: var(--color-primario);
+    color: var(--color-fondo);
 }
 
 /* ========================================================
