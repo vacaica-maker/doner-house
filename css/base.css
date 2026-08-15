@@ -94,6 +94,8 @@ img {
 .dropdown {
     position: relative;
     display: inline-block;
+    padding-bottom: 14px;
+    margin-bottom: -14px;
 }
 
 .dropdown-toggle {
@@ -110,10 +112,11 @@ img {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 130%;
-    left: 0;
+    top: 100%;
+    right: 0;
     background-color: var(--color-blanco);
     min-width: 260px;
+    max-width: 90vw;
     box-shadow: 0 10px 25px rgba(68, 45, 28, 0.18);
     border-radius: 10px;
     border: 1px solid rgba(68, 45, 28, 0.1);
