@@ -1,0 +1,274 @@
+/* ========================================================
+   BRAND VARIABLES - DÖNER HOUSE
+   Warm, earthy, rustic palette
+======================================================== */
+:root {
+    --color-fondo: #E8D1A7;         /* Crema suave - base */
+    --color-superficie: #F6EBD6;    /* Crema claro para tarjetas */
+    --color-blanco: #FFFDF8;
+    --color-primario: #84592B;      /* Toasted Caramel */
+    --color-primario-oscuro: #6B4622;
+    --color-secundario: #9D9167;    /* Olive Harvest */
+    --color-acento: #743014;        /* Spiced Wine */
+    --color-acento-oscuro: #5C2510;
+    --color-texto: #442D1C;         /* Cowhide Cocoa */
+
+    --fuente-titulo: 'Playfair Display', 'Georgia', serif;
+    --fuente-cuerpo: 'Raleway', sans-serif;
+}
+
+/* ========================================================
+   RESET Y BASE
+======================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-cuerpo);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+h1, h2, h3, h4, .logo {
+    font-family: var(--fuente-titulo);
+    letter-spacing: 0.5px;
+    color: var(--color-texto);
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ========================================================
+   HEADER / NAVBAR
+======================================================== */
+.navbar {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(68, 45, 28, 0.15);
+}
+
+.navbar .logo a {
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navbar nav > a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-texto);
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar nav > a:hover {
+    color: var(--color-primario);
+}
+
+/* ========================================================
+   DROPDOWN MENU (INDEX)
+======================================================== */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.dropdown-toggle::after {
+    content: '▾';
+    font-size: 0.8rem;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 130%;
+    left: 0;
+    background-color: var(--color-blanco);
+    min-width: 260px;
+    box-shadow: 0 10px 25px rgba(68, 45, 28, 0.18);
+    border-radius: 10px;
+    border: 1px solid rgba(68, 45, 28, 0.1);
+    padding: 10px 0;
+    z-index: 20;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.25s ease;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--color-texto);
+    font-size: 0.92rem;
+    font-weight: 500;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--color-superficie);
+    color: var(--color-primario);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ========================================================
+   GENERAL BUTTONS
+======================================================== */
+.btn-primario {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: var(--fuente-cuerpo);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+}
+
+.btn-primario:hover {
+    background-color: var(--color-primario-oscuro);
+    transform: translateY(-2px);
+}
+
+/* ========================================================
+   EXAMPLE CONTENT NOTICE
+======================================================== */
+.aviso-ejemplo {
+    display: inline-block;
+    background-color: rgba(157, 145, 103, 0.2);
+    border: 1px dashed var(--color-secundario);
+    color: var(--color-primario-oscuro);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* ========================================================
+   FOOTER
+======================================================== */
+.footer {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    padding: 50px 10% 25px;
+    border-top: 1px solid rgba(68, 45, 28, 0.15);
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    font-family: var(--fuente-titulo);
+    font-size: 1.8rem;
+    color: var(--color-primario);
+}
+
+.footer-tagline {
+    max-width: 280px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: var(--color-texto);
+    opacity: 0.85;
+}
+
+.footer-col h4 {
+    font-family: var(--fuente-cuerpo);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-primario);
+    margin-bottom: 14px;
+}
+
+.footer-col a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-texto);
+    font-size: 0.92rem;
+    margin-bottom: 10px;
+    transition: color 0.2s ease;
+}
+
+.footer-col h4 a {
+    display: inline;
+    color: inherit;
+    margin-bottom: 0;
+}
+
+.footer-col h4 a:hover {
+    text-decoration: underline;
+}
+
+.footer-col a:hover {
+    color: var(--color-acento);
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 0.85rem;
+    opacity: 0.75;
+    padding-top: 20px;
+    border-top: 1px solid rgba(68, 45, 28, 0.15);
+}
+
+/* ========================================================
+   RESPONSIVE BASE
+======================================================== */
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .navbar nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
