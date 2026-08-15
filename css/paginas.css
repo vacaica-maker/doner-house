@@ -479,6 +479,84 @@
     opacity: 1;
 }
 
+/* ========================================================
+   DATA CHARTS (donut + stat highlights)
+======================================================== */
+.chart-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-card {
+    flex: 1 1 220px;
+    background-color: var(--color-blanco);
+    border-radius: 14px;
+    padding: 26px;
+    box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
+    text-align: center;
+}
+
+.donut-chart {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 12px;
+}
+
+.donut-bg {
+    fill: none;
+    stroke: var(--color-superficie);
+    stroke-width: 3.4;
+}
+
+.donut-segment {
+    fill: none;
+    stroke: var(--color-primario);
+    stroke-width: 3.4;
+    stroke-linecap: round;
+}
+
+.donut-label {
+    font-family: var(--fuente-titulo);
+    font-size: 0.32rem;
+    font-weight: 700;
+    text-anchor: middle;
+    fill: var(--color-texto);
+}
+
+.chart-card .chart-caption {
+    font-size: 0.85rem;
+    color: var(--color-texto);
+    opacity: 0.85;
+    line-height: 1.4;
+}
+
+.stat-highlight strong {
+    display: block;
+    font-family: var(--fuente-titulo);
+    font-size: 2.4rem;
+    color: var(--color-primario);
+    line-height: 1.1;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* ========================================================
+   FACTOR CARD ICON
+======================================================== */
+.factor-icon {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 14px;
+    color: var(--color-primario);
+}
+
+.factor-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
 @media (max-width: 700px) {
     .pagina-hero h1 {
         font-size: 2rem;
