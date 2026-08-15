@@ -39,6 +39,26 @@
     line-height: 1.6;
 }
 
+.btn-volver-index {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 22px;
+    padding: 10px 24px;
+    border-radius: 25px;
+    background-color: var(--color-blanco);
+    color: var(--color-primario);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.92rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-volver-index:hover {
+    background-color: var(--color-fondo);
+    transform: translateY(-2px);
+}
+
 .contenido-pagina {
     padding: 60px 10%;
     background-color: var(--color-superficie);
