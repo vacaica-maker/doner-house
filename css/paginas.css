@@ -755,6 +755,104 @@
 }
 
 /* ========================================================
+   SOURCE FIGURE (real chart/table image pulled from a cited source)
+======================================================== */
+.fuente-figura {
+    background-color: var(--color-blanco);
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
+    margin: 14px 0 20px;
+}
+
+.fuente-figura img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(157, 145, 103, 0.25);
+}
+
+.fuente-figura figcaption {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: var(--color-texto);
+    opacity: 0.85;
+    line-height: 1.5;
+}
+
+.fuente-figura figcaption strong {
+    color: var(--color-primario);
+}
+
+/* ========================================================
+   TIMELINE (chronological data — "2. Data" step of every variable)
+======================================================== */
+.timeline {
+    position: relative;
+    list-style: none;
+    margin: 18px 0 24px;
+    padding: 4px 0 4px 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    bottom: 6px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--color-primario), var(--color-secundario));
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 22px;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 3px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--color-primario);
+    border: 3px solid var(--color-blanco);
+    box-shadow: 0 0 0 2px var(--color-secundario);
+}
+
+.timeline-date {
+    display: inline-block;
+    font-family: var(--fuente-titulo);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--color-primario);
+    background-color: var(--color-superficie);
+    padding: 2px 12px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+
+.timeline-item h5 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    color: var(--color-texto);
+}
+
+.timeline-item p {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    opacity: 0.85;
+    margin: 0;
+}
+
+/* ========================================================
    FACTOR CARD ICON
 ======================================================== */
 .factor-icon {
