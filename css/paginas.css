@@ -867,6 +867,201 @@
     height: 100%;
 }
 
+/* ========================================================
+   ORGANIZATIONAL STRUCTURE (3.3.2 Organizing)
+   Classic recursive CSS tree: every <ul> is the child list of
+   the <li> right above it, so every connector is generated
+   locally between a node and its own immediate children only.
+   This guarantees no line ever crosses outside its own branch.
+======================================================== */
+.org-chart-wrap {
+    overflow-x: auto;
+    margin: 20px 0 30px;
+    padding: 10px 0 20px;
+}
+
+.org-tree,
+.org-tree ul,
+.org-tree li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.org-tree {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.org-tree ul {
+    display: table;
+    width: 100%;
+    padding-top: 34px;
+}
+
+.org-tree li {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    padding: 34px 16px 0 16px;
+}
+
+.org-tree li::before,
+.org-tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 34px;
+    border-top: 2px solid rgba(132, 89, 43, 0.4);
+}
+
+.org-tree li::after {
+    right: auto;
+    left: 50%;
+    border-left: 2px solid rgba(132, 89, 43, 0.4);
+}
+
+.org-tree li:only-child::before,
+.org-tree li:only-child::after {
+    display: none;
+}
+
+.org-tree li:only-child {
+    padding-top: 0;
+}
+
+.org-tree li:first-child::before,
+.org-tree li:last-child::after {
+    border: 0 none;
+}
+
+.org-tree li:last-child::before {
+    border-right: 2px solid rgba(132, 89, 43, 0.4);
+    border-radius: 0 8px 0 0;
+}
+
+.org-tree li:first-child::after {
+    border-radius: 8px 0 0 0;
+}
+
+.org-tree ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid rgba(132, 89, 43, 0.4);
+    width: 0;
+    height: 34px;
+}
+
+.org-tree .org-node {
+    display: inline-block;
+    white-space: normal;
+    width: 190px;
+    background-color: var(--color-blanco);
+    border-radius: 18px;
+    box-shadow: 3px 4px 14px rgba(68, 45, 28, 0.16);
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.org-tree .org-node strong {
+    display: block;
+    font-family: var(--fuente-titulo);
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--color-texto);
+    line-height: 1.3;
+}
+
+.org-tree .org-node span {
+    display: block;
+    font-family: var(--fuente-titulo);
+    font-weight: 400;
+    font-size: 0.72rem;
+    color: var(--color-texto);
+    opacity: 0.65;
+    margin-top: 5px;
+    line-height: 1.3;
+}
+
+/* ========================================================
+   JOB DESCRIPTION CARDS
+======================================================== */
+.job-card {
+    background-color: var(--color-blanco);
+    border: 1px solid rgba(157, 145, 103, 0.3);
+    border-left: 5px solid var(--color-primario);
+    border-radius: 12px;
+    padding: 26px;
+    margin-bottom: 22px;
+    box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
+}
+
+.job-card:nth-of-type(3n+2) {
+    border-left-color: var(--color-secundario);
+}
+
+.job-card:nth-of-type(3n+3) {
+    border-left-color: var(--color-acento);
+}
+
+.job-card h4 {
+    font-family: var(--fuente-titulo);
+    font-size: 1.15rem;
+    color: var(--color-primario);
+    margin-bottom: 6px;
+}
+
+.job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    font-size: 0.85rem;
+    opacity: 0.85;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed rgba(157, 145, 103, 0.35);
+}
+
+.job-meta span strong {
+    color: var(--color-texto);
+    font-weight: 600;
+}
+
+.job-card p.job-about {
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.job-card h5 {
+    font-size: 0.92rem;
+    color: var(--color-texto);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.job-card ul {
+    margin: 0 0 14px;
+    padding-left: 20px;
+}
+
+.job-card ul:last-child {
+    margin-bottom: 0;
+}
+
+.job-card li {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
 @media (max-width: 700px) {
     .pagina-hero h1 {
         font-size: 2rem;
