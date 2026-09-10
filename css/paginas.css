@@ -991,6 +991,234 @@
 }
 
 /* ========================================================
+   ORG CHART v2 (flat: manager + 6 associates, dotted staff)
+======================================================== */
+.orgv2 {
+    position: relative;
+    width: max-content;
+    margin: 0;
+    padding: 8px 0 6px;
+}
+
+.orgv2-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orgv2-node {
+    background-color: var(--color-blanco);
+    border-radius: 16px;
+    box-shadow: 3px 4px 14px rgba(68, 45, 28, 0.16);
+    padding: 12px 16px;
+    text-align: center;
+    width: 150px;
+}
+
+.orgv2-node strong {
+    display: block;
+    font-family: var(--fuente-titulo);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--color-texto);
+    line-height: 1.25;
+}
+
+.orgv2-node span {
+    display: block;
+    font-family: var(--fuente-titulo);
+    font-weight: 400;
+    font-size: 0.7rem;
+    opacity: 0.7;
+    margin-top: 4px;
+    line-height: 1.25;
+}
+
+.node-manager {
+    width: 210px;
+    position: relative;
+    z-index: 2;
+    background-color: var(--color-primario);
+}
+
+.node-manager strong,
+.node-manager span {
+    color: var(--color-blanco);
+}
+
+.node-manager span {
+    opacity: 0.85;
+}
+
+.orgv2-trunk {
+    width: 0;
+    height: 104px;
+    border-left: 2px solid rgba(132, 89, 43, 0.45);
+}
+
+.orgv2-associates {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 12px;
+    position: relative;
+    padding-top: 28px;
+}
+
+.orgv2-associates::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 56px;
+    right: 56px;
+    border-top: 2px solid rgba(132, 89, 43, 0.45);
+}
+
+.orgv2-associates .node-associate {
+    width: 112px;
+    position: relative;
+}
+
+.orgv2-associates .node-associate::before {
+    content: '';
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    width: 0;
+    height: 28px;
+    border-left: 2px solid rgba(132, 89, 43, 0.45);
+}
+
+.node-associate {
+    background-color: var(--color-blanco);
+    border: 1px solid var(--color-secundario);
+    border-top: 4px solid var(--color-primario);
+}
+
+.orgv2-staff {
+    position: absolute;
+    top: 74px;
+    left: calc(50% + 48px);
+}
+
+.orgv2-dotted-h {
+    position: absolute;
+    top: 114px;
+    left: 50%;
+    width: 48px;
+    border-top: 3px dotted var(--color-acento);
+}
+
+.node-accounting {
+    background-color: #E7C4D3;
+    border: 2px dashed #C97DA0;
+}
+
+.node-sales {
+    position: absolute;
+    top: 28px;
+    left: 744px;
+    width: 150px;
+    background-color: #BBD3EA;
+    border: 2px dashed #6FA0CC;
+}
+
+/* dotted vertical dropping from the associates bus to Sales */
+.node-sales::before {
+    content: '';
+    position: absolute;
+    top: -28px;
+    left: 75px;
+    height: 28px;
+    border-left: 3px dotted var(--color-acento);
+}
+
+/* dotted horizontal extending the associates bus out to Sales */
+.node-sales::after {
+    content: '';
+    position: absolute;
+    top: -28px;
+    left: -68px;
+    width: 143px;
+    border-top: 3px dotted var(--color-acento);
+}
+
+.org-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    font-size: 0.8rem;
+    opacity: 0.85;
+    margin-top: 26px;
+}
+
+.org-legend .lg-solid,
+.org-legend .lg-dotted {
+    display: inline-block;
+    width: 26px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.org-legend .lg-solid {
+    border-top: 2px solid var(--color-primario);
+}
+
+.org-legend .lg-dotted {
+    border-top: 3px dotted var(--color-acento);
+}
+
+/* ========================================================
+   OPERATING HOURS & SHIFTS
+======================================================== */
+.schedule-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: 10px 0 28px;
+}
+
+.schedule-card {
+    flex: 1 1 280px;
+    background-color: var(--color-blanco);
+    border: 1px solid rgba(157, 145, 103, 0.3);
+    border-radius: 12px;
+    padding: 20px 22px;
+    box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
+}
+
+.schedule-card h5 {
+    font-family: var(--fuente-titulo);
+    font-size: 1rem;
+    color: var(--color-primario);
+    margin-bottom: 6px;
+}
+
+.shift-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(157, 145, 103, 0.35);
+}
+
+.shift-row:last-child {
+    border-bottom: none;
+}
+
+.shift-label {
+    font-size: 0.9rem;
+}
+
+.shift-time {
+    font-weight: 600;
+    color: var(--color-acento);
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+/* ========================================================
    JOB DESCRIPTION CARDS
 ======================================================== */
 .job-card {
@@ -1060,6 +1288,53 @@
     font-size: 0.92rem;
     line-height: 1.6;
     margin-bottom: 6px;
+}
+
+/* ========================================================
+   OBJECTIVES BY POSITION (3.3.1 Planning)
+======================================================== */
+.obj-block {
+    margin-bottom: 18px;
+    padding-top: 16px;
+    border-top: 1px dashed rgba(157, 145, 103, 0.35);
+}
+
+.obj-block:first-of-type {
+    padding-top: 0;
+    border-top: none;
+}
+
+.obj-block:last-child {
+    margin-bottom: 0;
+}
+
+.job-card .obj-block h5 {
+    font-size: 1rem;
+    color: var(--color-primario);
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+}
+
+.obj-statement {
+    font-size: 0.94rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.job-card ul.smart-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.job-card ul.smart-list li {
+    margin-bottom: 5px;
+}
+
+.job-card ul.smart-list li strong {
+    color: var(--color-secundario);
+    font-weight: 600;
 }
 
 @media (max-width: 700px) {
