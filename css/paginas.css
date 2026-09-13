@@ -878,6 +878,17 @@
     overflow-x: auto;
     margin: 20px 0 30px;
     padding: 10px 0 20px;
+    /* Scroll-shadow hint, same technique as .matrix-table-wrap, so mobile
+       users see there is more of the chart to swipe to on either side. */
+    background-repeat: no-repeat;
+    background-size: 40px 100%, 40px 100%, 16px 100%, 16px 100%;
+    background-position: left center, right center, left center, right center;
+    background-image:
+        linear-gradient(to right, var(--color-superficie), rgba(246, 235, 214, 0)),
+        linear-gradient(to left, var(--color-superficie), rgba(246, 235, 214, 0)),
+        linear-gradient(to right, rgba(68, 45, 28, 0.2), rgba(68, 45, 28, 0)),
+        linear-gradient(to left, rgba(68, 45, 28, 0.2), rgba(68, 45, 28, 0));
+    background-attachment: local, local, scroll, scroll;
 }
 
 .org-tree,
