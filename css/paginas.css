@@ -454,6 +454,17 @@
 }
 
 /* ========================================================
+   PENDING SECTION NOTE
+======================================================== */
+.pending-note {
+    border: 1px dashed var(--color-secundario);
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+/* ========================================================
    SOURCE ATTRIBUTION BOX
 ======================================================== */
 .fuente-info {
@@ -1347,6 +1358,100 @@
 .job-card ul.smart-list li strong {
     color: var(--color-secundario);
     font-weight: 600;
+}
+
+/* ========================================================
+   SURVEY QUESTIONS (3.4.1 Customer Analysis)
+======================================================== */
+.survey-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-top: 18px;
+}
+
+@media (max-width: 720px) {
+    .survey-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.survey-card {
+    background-color: var(--color-blanco);
+    border: 1px solid rgba(157, 145, 103, 0.3);
+    border-left: 5px solid var(--color-primario);
+    border-radius: 12px;
+    padding: 20px 22px;
+    box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
+}
+
+.survey-card:nth-of-type(3n+2) {
+    border-left-color: var(--color-secundario);
+}
+
+.survey-card:nth-of-type(3n+3) {
+    border-left-color: var(--color-acento);
+}
+
+.survey-card-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.survey-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--color-primario);
+    color: var(--color-blanco);
+    font-size: 0.78rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.survey-type {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: var(--color-secundario);
+    background-color: rgba(157, 145, 103, 0.12);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.survey-question {
+    font-family: var(--fuente-titulo);
+    font-size: 1rem;
+    color: var(--color-texto);
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.survey-options {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.survey-options li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding: 4px 0 4px 20px;
+    position: relative;
+}
+
+.survey-options li::before {
+    content: "\2022";
+    position: absolute;
+    left: 4px;
+    color: var(--color-primario);
+    font-weight: 700;
 }
 
 /* ========================================================
