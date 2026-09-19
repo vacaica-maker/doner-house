@@ -1454,6 +1454,27 @@
     font-weight: 700;
 }
 
+.survey-section-title {
+    grid-column: 1 / -1;
+    font-family: var(--fuente-titulo);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-primario);
+    margin: 10px 0 -6px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid rgba(157, 145, 103, 0.3);
+}
+
+.survey-note {
+    grid-column: 1 / -1;
+    background-color: rgba(157, 145, 103, 0.08);
+    border: 1px solid rgba(157, 145, 103, 0.3);
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
 /* ========================================================
    HIRING FLOWCHART FIGURE (3.3.4 Staffing)
 ======================================================== */
