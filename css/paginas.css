@@ -556,6 +556,120 @@
     border-bottom: none;
 }
 
+/* Gantt chart: one column per week grouped by month, colored by season */
+.season-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    margin: 0 0 12px;
+    font-size: 0.85rem;
+}
+
+.season-chip {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    vertical-align: -2px;
+    margin-right: 6px;
+}
+
+.chip-high, .gantt-table td.on-high, .gantt-table th.band-high { background-color: #2E7D4F; }
+.chip-low, .gantt-table td.on-low, .gantt-table th.band-low { background-color: #E3A72F; }
+.chip-dead, .gantt-table td.on-dead, .gantt-table th.band-dead { background-color: #5B6178; }
+.gantt-table td.bg-high { background-color: rgba(46, 125, 79, 0.14); }
+.gantt-table td.bg-low { background-color: rgba(227, 167, 47, 0.22); }
+.gantt-table td.bg-dead { background-color: rgba(91, 97, 120, 0.20); }
+
+.gantt-table {
+    border-collapse: collapse;
+    background-color: var(--color-blanco);
+    font-size: 0.78rem;
+    width: max-content;
+}
+
+.gantt-table th,
+.gantt-table td {
+    border: 1px solid rgba(157, 145, 103, 0.25);
+    padding: 0;
+    text-align: center;
+}
+
+.gantt-table th {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    font-weight: 600;
+    padding: 6px 4px;
+}
+
+.gantt-table th.gantt-month-alt {
+    background-color: var(--color-acento);
+}
+
+.gantt-table th.gantt-week {
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 4px 0;
+    min-width: 22px;
+}
+
+.gantt-table th.band-high,
+.gantt-table th.band-dead {
+    color: #FFFFFF;
+}
+
+.gantt-table th.band-low {
+    color: #442D1C;
+}
+
+.gantt-table th.band {
+    font-size: 0.65rem;
+    padding: 3px 0;
+}
+
+.gantt-table th.gantt-band-label {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    text-align: left;
+    padding: 4px 10px;
+    font-size: 0.72rem;
+}
+
+.gantt-table .m-start {
+    border-left: 2px solid rgba(68, 45, 28, 0.45);
+}
+
+.gantt-table td.gantt-task {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    min-width: 280px;
+    max-width: 280px;
+    padding: 6px 10px;
+    text-align: left;
+    background-color: var(--color-blanco);
+    box-shadow: 1px 0 0 rgba(157, 145, 103, 0.4);
+}
+
+.gantt-table th.gantt-task-head {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    text-align: left;
+    padding: 6px 10px;
+}
+
+.gantt-table tr.gantt-group td {
+    background-color: var(--color-superficie);
+    color: var(--color-primario);
+    font-weight: 700;
+    text-align: left;
+    padding: 6px 10px;
+    position: sticky;
+    left: 0;
+}
+
 /* ========================================================
    TABLE OF CONTENTS (index.html)
 ======================================================== */
