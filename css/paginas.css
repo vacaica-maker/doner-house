@@ -670,6 +670,75 @@
     left: 0;
 }
 
+/* Cost/Benefit comparison table: Forecast Investment | Forecast Benefit | ROI per month */
+.cb-chip-inv { background-color: #84592B; }
+.cb-chip-neg { background-color: #F1B9B4; }
+.cb-chip-pos { background-color: #BFE3CB; }
+
+.cb-table {
+    border-collapse: collapse;
+    background-color: var(--color-blanco);
+    font-size: 0.78rem;
+    width: max-content;
+}
+
+.cb-table th,
+.cb-table td {
+    border: 1px solid rgba(157, 145, 103, 0.35);
+    padding: 6px 10px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.cb-table th {
+    font-weight: 700;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.2;
+    min-width: 84px;
+}
+
+.cb-table th.cb-month {
+    background-color: var(--color-texto);
+    color: var(--color-blanco);
+    border-left: 2px solid var(--color-blanco);
+}
+
+.cb-table th.cb-month-total { background-color: var(--color-acento); }
+.cb-table th.cb-inv { background-color: #84592B; color: #FFFFFF; }
+.cb-table th.cb-ben { background-color: #2E7D4F; color: #FFFFFF; }
+.cb-table th.cb-roi { background-color: var(--color-blanco); color: var(--color-texto); }
+
+.cb-table th.cb-label-head,
+.cb-table td.cb-label {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    text-align: left;
+    min-width: 250px;
+    max-width: 250px;
+    white-space: normal;
+    box-shadow: 1px 0 0 rgba(157, 145, 103, 0.5);
+}
+
+.cb-table th.cb-label-head { background-color: var(--color-primario); color: var(--color-blanco); }
+.cb-table td.cb-label { background-color: var(--color-blanco); font-weight: 600; }
+
+.cb-table td:nth-child(3n+2) { border-left: 2px solid rgba(68, 45, 28, 0.45); }
+.cb-table td.cb-total-col { font-weight: 700; background-color: rgba(116, 48, 20, 0.07); }
+.cb-table td.cb-empty { text-align: center; opacity: 0.4; }
+
+.cb-table tr.cb-sum td { background-color: #D9D6CE; font-weight: 700; }
+.cb-table tr.cb-sum td.cb-label { background-color: #D9D6CE; }
+
+.cb-table tr.cb-net td,
+.cb-table tr.cb-roirow td { text-align: center; font-weight: 700; border-left-width: 2px; }
+.cb-table td.cb-neg { background-color: #F1B9B4; color: #7A1F16; }
+.cb-table td.cb-pos { background-color: #BFE3CB; color: #1E5A37; }
+.cb-table td.cb-est { background-color: #FBEFC9; }
+.cb-table tr.cb-net td.cb-label,
+.cb-table tr.cb-roirow td.cb-label { text-align: left; background-color: var(--color-blanco); }
+
 /* ========================================================
    TABLE OF CONTENTS (index.html)
 ======================================================== */
