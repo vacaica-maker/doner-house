@@ -570,27 +570,205 @@
 
                 <h4 style="margin-top:16px; margin-bottom:10px;">Customer Profile</h4>
 
-                <div class="matrix-table-wrap">
-                    <table class="matrix-table">
-                        <thead>
-                            <tr><th>Survey question</th><th>Leading response(s)</th><th>Share</th></tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>Fast-food consumption frequency</td><td>Una o dos veces al mes</td><td>44%</td></tr>
-                            <tr><td>Usual ordering channel</td><td>Directamente en el local</td><td>53%</td></tr>
-                            <tr><td>Top decision factors</td><td>Sabor &middot; Calidad de los ingredientes &middot; Tama&ntilde;o de la porci&oacute;n</td><td>64% &middot; 59% &middot; 47%</td></tr>
-                            <tr><td>Awareness of D&ouml;ner Kebab</td><td>Tried it / heard of it / never heard of it</td><td>26% / 30% / 44%</td></tr>
-                            <tr><td>Current oriental/Greek spot used</td><td>Ninguno de los anteriores</td><td>83%</td></tr>
-                            <tr><td>Willingness to try D&ouml;ner House</td><td>Dispuesto(a) or Muy dispuesto(a)</td><td>80%</td></tr>
-                            <tr><td>Preferred protein</td><td>Carne de res</td><td>44%</td></tr>
-                            <tr><td>Preferred size</td><td>Mediano</td><td>74%</td></tr>
-                            <tr><td>Combo price expectation</td><td>$15,000&ndash;$20,000 COP</td><td>32%</td></tr>
-                            <tr><td>Preferred place to eat</td><td>Local f&iacute;sico</td><td>60%</td></tr>
-                            <tr><td>Sub-15-minute service importance</td><td>At least moderately important</td><td>89%</td></tr>
-                            <tr><td>Promotion that drives first purchase</td><td>Combo con bebida y acompa&ntilde;amiento gratis</td><td>42%</td></tr>
-                            <tr><td>Preferred brand name</td><td>D&ouml;ner Street</td><td>36%</td></tr>
-                        </tbody>
-                    </table>
+                <div class="chart-row">
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">At a Glance</h4>
+                        <div class="stat-pair">
+                            <div class="stat-highlight">
+                                <strong>80%</strong>
+                                <p class="chart-caption">Willing or very willing to try D&ouml;ner House</p>
+                            </div>
+                            <div class="stat-highlight">
+                                <strong>83%</strong>
+                                <p class="chart-caption">Don't currently visit any named competitor</p>
+                            </div>
+                        </div>
+                        <div class="stat-pair" style="margin-top:8px;">
+                            <div class="stat-highlight">
+                                <strong>60%</strong>
+                                <p class="chart-caption">Prefer eating in-store over delivery</p>
+                            </div>
+                            <div class="stat-highlight">
+                                <strong>74%</strong>
+                                <p class="chart-caption">Prefer the medium size</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">Awareness of D&ouml;ner Kebab</h4>
+                        <svg viewBox="0 0 36 36" class="donut-chart">
+                            <path class="donut-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#2E7D4F; stroke-linecap:butt;" stroke-dasharray="26, 74" stroke-dashoffset="0" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#E3A72F; stroke-linecap:butt;" stroke-dasharray="30, 70" stroke-dashoffset="-26" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#5B6178; stroke-linecap:butt;" stroke-dasharray="44, 56" stroke-dashoffset="-56" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        </svg>
+                        <div class="season-legend" style="margin-top:10px; justify-content:center;">
+                            <span><span class="season-chip" style="background-color:#2E7D4F;"></span>Tried it (26%)</span>
+                            <span><span class="season-chip" style="background-color:#E3A72F;"></span>Heard of it (30%)</span>
+                            <span><span class="season-chip" style="background-color:#5B6178;"></span>Never heard (44%)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">Top Decision Factors</h4>
+                        <ul class="bar-chart">
+                            <li>
+                                <div class="bar-row-label"><span>Sabor</span><strong>64%</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Calidad de los ingredientes</span><strong>59%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:92.2%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Tama&ntilde;o de la porci&oacute;n</span><strong>47%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:73.4%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Precio</span><strong>41%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:64.1%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Rapidez del servicio</span><strong>40%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:62.5%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Ubicaci&oacute;n</span><strong>19%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:29.7%;"></div></div>
+                            </li>
+                        </ul>
+                        <p class="chart-caption" style="margin-top:14px;">What matters most when choosing a fast-food restaurant (multi-select)</p>
+                    </div>
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">Preferred Protein</h4>
+                        <ul class="bar-chart">
+                            <li>
+                                <div class="bar-row-label"><span>Carne de res</span><strong>44%</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Carne de cordero</span><strong>26%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:59.1%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Pollo</span><strong>19%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:43.2%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Opci&oacute;n vegetariana / mixta</span><strong>10%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:22.7%;"></div></div>
+                            </li>
+                        </ul>
+                        <p class="chart-caption" style="margin-top:14px;">Base protein costed in &sect;3.4.2 accordingly</p>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">Combo Price Expectation</h4>
+                        <ul class="bar-chart">
+                            <li>
+                                <div class="bar-row-label"><span>$15,000&ndash;$20,000</span><strong>32%</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>$20,001&ndash;$25,000</span><strong>31%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:96.9%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>$25,001&ndash;$30,000</span><strong>30%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:93.8%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>M&aacute;s de $30,000</span><strong>6%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:18.8%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Menos de $15,000</span><strong>2%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:6.2%;"></div></div>
+                            </li>
+                        </ul>
+                        <p class="chart-caption" style="margin-top:14px;">Three brackets are now nearly tied &mdash; no single price point dominates</p>
+                    </div>
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">Preferred Brand Name</h4>
+                        <ul class="bar-chart">
+                            <li>
+                                <div class="bar-row-label"><span>D&ouml;ner Street</span><strong>36%</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>D&ouml;ner Haus</span><strong>32%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:88.9%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>D&ouml;ner Bites</span><strong>11%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:30.6%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Urban D&ouml;ner</span><strong>10%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:27.8%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>D&ouml;ner &amp; Co.</span><strong>10%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:27.8%;"></div></div>
+                            </li>
+                        </ul>
+                        <p class="chart-caption" style="margin-top:14px;">D&ouml;ner Street leads D&ouml;ner Haus by 4 points</p>
+                    </div>
+                </div>
+
+                <div class="chart-row">
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">Most-Wanted Toppings</h4>
+                        <ul class="bar-chart">
+                            <li>
+                                <div class="bar-row-label"><span>Queso</span><strong>55%</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Papas fritas</span><strong>53%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:96.4%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Salsas de la casa</span><strong>52%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:94.5%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Vegetales encurtidos</span><strong>47%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:85.5%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Lechuga y tomate</span><strong>44%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:80.0%;"></div></div>
+                            </li>
+                        </ul>
+                        <p class="chart-caption" style="margin-top:14px;">Additional to the base protein (multi-select)</p>
+                    </div>
+                    <div class="chart-panel">
+                        <h4 class="chart-panel-title">What Drives the First Purchase</h4>
+                        <ul class="bar-chart">
+                            <li>
+                                <div class="bar-row-label"><span>Combo con bebida gratis</span><strong>42%</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>2x1 o segundo producto</span><strong>38%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:90.5%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Descuento directo</span><strong>16%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:38.1%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Programa de puntos</span><strong>5%</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:11.9%;"></div></div>
+                            </li>
+                        </ul>
+                        <p class="chart-caption" style="margin-top:14px;">Promotion respondents say would drive a first visit</p>
+                    </div>
                 </div>
 
                 <div class="job-card">
@@ -1388,10 +1566,14 @@
                     seasonality index (Jan and Dec peak with the opening and Christmas; Mar&ndash;Apr dip in the
                     low season).</p>
 
-                <h4 style="margin-top:20px; margin-bottom:10px;">Channel-Level Detail (33 Campaigns)</h4>
+                <h4 style="margin-top:20px; margin-bottom:10px;">Channel-Level Detail (38 Campaigns)</h4>
                 <p>Every campaign behind the 7 area totals below, with its own investment, forecast revenue,
                     net benefit, ROI, target ROAS, how many months it runs, and the source dates in the 2027
-                    Marketing Campaign Plan.</p>
+                    Marketing Campaign Plan. Five campaigns that appear in &sect;3.4.4's schedule but had no
+                    budget line here &mdash; the monthly photo contest, December's double loyalty stamps, the
+                    back-to-work office lunch combo, the mid-year dead-season stay-in combo, and the Christmas
+                    gift vouchers &mdash; are now costed using the same method as the rest of the model
+                    (assumed ROAS &times; monthly seasonality), marked <em>(added)</em> below.</p>
                 <div class="matrix-table-wrap">
                     <table class="matrix-table" style="font-size:0.82rem;">
                         <thead>
@@ -1402,7 +1584,7 @@
                             <tr><td>Press &amp; Social (Teaser + PR + Opening Promo)</td><td>$3,000,000</td><td>$10,800,000</td><td>$7,800,000</td><td>260.0%</td><td>3.0x</td><td>1</td><td>IG/TikTok teaser, local press &amp; opening week (4&ndash;25 Jan)</td></tr>
                             <tr><td>Flyers, Free Tastings &amp; Satisfaction Guarantee</td><td>$2,000,000</td><td>$8,225,000</td><td>$6,225,000</td><td>311.3%</td><td>3.5x</td><td>2</td><td>Flyers at offices/universities &amp; guarantee signage (18 Jan&ndash;1 Feb)</td></tr>
 
-                            <tr class="matrix-group"><td colspan="8">DIGITAL ADVERTISING &mdash; $55,100,000 &middot; $221,390,909 revenue &middot; 301.8% ROI</td></tr>
+                            <tr class="matrix-group"><td colspan="8">DIGITAL ADVERTISING &mdash; $59,300,000 &middot; $232,466,909 revenue &middot; 292.0% ROI</td></tr>
                             <tr><td>Organic Content (Instagram/TikTok/Facebook)</td><td>$12,000,000</td><td>$32,000,000</td><td>$20,000,000</td><td>166.7%</td><td>2.5x</td><td>12</td><td>Always-on, year-round (4 Jan&ndash;31 Dec)</td></tr>
                             <tr><td>Google Business Profile (Local SEO)</td><td>$1,200,000</td><td>$7,680,000</td><td>$6,480,000</td><td>540.0%</td><td>6.0x</td><td>12</td><td>Photos, hours, menu &amp; reviews year-round; low cost, high purchase intent</td></tr>
                             <tr><td>Paid Meta Ads (Geo-Targeted)</td><td>$24,000,000</td><td>$102,400,000</td><td>$78,400,000</td><td>326.7%</td><td>4.0x</td><td>12</td><td>Radius around the store (18 Jan&ndash;31 Dec)</td></tr>
@@ -1410,8 +1592,9 @@
                             <tr><td>QR on Packaging/Receipts + Referrals</td><td>$8,000,000</td><td>$42,181,818</td><td>$34,181,818</td><td>427.3%</td><td>5.0x</td><td>11</td><td>QR code, 10% off next purchase (15 Feb&ndash;31 Dec)</td></tr>
                             <tr><td>WhatsApp Business (Catalog + Broadcast)</td><td>$2,400,000</td><td>$11,389,091</td><td>$8,989,091</td><td>374.5%</td><td>4.5x</td><td>11</td><td>Catalog &amp; weekly offer (22 Feb&ndash;31 Dec)</td></tr>
                             <tr><td>TikTok Challenge ("The Perfect Wrap")</td><td>$1,500,000</td><td>$4,620,000</td><td>$3,120,000</td><td>208.0%</td><td>2.8x</td><td>2</td><td>Challenge with prize (27 Sep&ndash;18 Oct)</td></tr>
+                            <tr><td>Monthly Photo Contest (#D&ouml;nerHouse) <em>(added)</em></td><td>$4,200,000</td><td>$11,076,000</td><td>$6,876,000</td><td>163.7%</td><td>2.6x</td><td>7</td><td>Winner gets a free Combo (5 Apr&ndash;4 Oct)</td></tr>
 
-                            <tr class="matrix-group"><td colspan="8">DELIVERY &amp; LOYALTY &mdash; $47,800,000 &middot; $176,611,227 revenue &middot; 269.5% ROI</td></tr>
+                            <tr class="matrix-group"><td colspan="8">DELIVERY &amp; LOYALTY &mdash; $50,000,000 &middot; $188,623,227 revenue &middot; 277.2% ROI</td></tr>
                             <tr><td>Delivery App Launch (Introductory Discount)</td><td>$6,000,000</td><td>$17,625,000</td><td>$11,625,000</td><td>193.8%</td><td>2.5x</td><td>2</td><td>Rappi, Uber Eats &amp; DiDi Food with launch discount (25 Jan&ndash;22 Feb)</td></tr>
                             <tr><td>Loyalty Card (Every 10th D&ouml;ner Free)</td><td>$15,000,000</td><td>$63,272,727</td><td>$48,272,727</td><td>321.8%</td><td>4.0x</td><td>11</td><td>Cost of the loyalty benefit (1 Feb&ndash;31 Dec)</td></tr>
                             <tr><td>Student/Office-Worker Discount (10%)</td><td>$10,000,000</td><td>$31,312,500</td><td>$21,312,500</td><td>213.1%</td><td>3.0x</td><td>8</td><td>Semester 1 (Feb&ndash;May) and semester 2 (Aug&ndash;Nov)</td></tr>
@@ -1419,6 +1602,7 @@
                             <tr><td>Corporate Lunches (WhatsApp Orders)</td><td>$4,000,000</td><td>$17,556,000</td><td>$13,556,000</td><td>338.9%</td><td>4.2x</td><td>10</td><td>Bulk orders for nearby offices (15 Mar&ndash;31 Dec)</td></tr>
                             <tr><td>Refer &amp; Earn (Free Fries)</td><td>$2,000,000</td><td>$8,662,500</td><td>$6,662,500</td><td>333.1%</td><td>4.5x</td><td>4</td><td>Referral program (12 Apr&ndash;5 Jul)</td></tr>
                             <tr><td>Rainy Season (Free Delivery)</td><td>$1,800,000</td><td>$5,265,000</td><td>$3,465,000</td><td>192.5%</td><td>2.6x</td><td>2</td><td>Delivery push on rainy days (18 Oct&ndash;29 Nov)</td></tr>
+                            <tr><td>Double Loyalty Stamps (December) <em>(added)</em></td><td>$2,200,000</td><td>$12,012,000</td><td>$9,812,000</td><td>446.0%</td><td>4.2x</td><td>1</td><td>Every stamp counts double, December peak season (6&ndash;27 Dec)</td></tr>
 
                             <tr class="matrix-group"><td colspan="8">SPECIAL DATES &mdash; $20,700,000 &middot; $90,945,000 revenue &middot; 339.3% ROI</td></tr>
                             <tr><td>Valentine's Day ("Share a D&ouml;ner")</td><td>$2,500,000</td><td>$11,500,000</td><td>$9,000,000</td><td>360.0%</td><td>4.0x</td><td>1</td><td>Feb 14</td></tr>
@@ -1441,11 +1625,14 @@
                             <tr class="matrix-group"><td colspan="8">PRODUCT &amp; MENU &mdash; $3,000,000 &middot; $9,000,000 revenue &middot; 200.0% ROI</td></tr>
                             <tr><td>Survey + Limited-Edition Spicy D&ouml;ner</td><td>$3,000,000</td><td>$9,000,000</td><td>$6,000,000</td><td>200.0%</td><td>3.0x</td><td>3</td><td>IG vote + limited-edition launch (21 Jun&ndash;9 Aug)</td></tr>
 
-                            <tr class="matrix-group"><td colspan="8">LOW SEASON &mdash; $3,300,000 &middot; $7,099,500 revenue &middot; 115.1% ROI</td></tr>
+                            <tr class="matrix-group"><td colspan="8">LOW SEASON &mdash; $8,700,000 &middot; $21,715,500 revenue &middot; 149.6% ROI</td></tr>
                             <tr><td>Weekday Happy Hour (3&ndash;5 PM)</td><td>$1,500,000</td><td>$2,887,500</td><td>$1,387,500</td><td>92.5%</td><td>2.2x</td><td>2</td><td>Discounted combo during off-peak hours (1 Mar&ndash;26 Apr)</td></tr>
                             <tr><td>Mid-Year Break (Free Delivery)</td><td>$1,800,000</td><td>$4,212,000</td><td>$2,412,000</td><td>134.0%</td><td>2.4x</td><td>2</td><td>Orders &gt; $40,000 (21 Jun&ndash;12 Jul)</td></tr>
+                            <tr><td>Back-to-Work Office Lunch Combo <em>(added)</em></td><td>$1,800,000</td><td>$5,616,000</td><td>$3,816,000</td><td>212.0%</td><td>2.6x</td><td>1</td><td>Offices reopen before universities (4&ndash;25 Jan)</td></tr>
+                            <tr><td>Mid-Year Dead-Season Stay-In Combo for Two <em>(added)</em></td><td>$1,600,000</td><td>$3,120,000</td><td>$1,520,000</td><td>95.0%</td><td>2.0x</td><td>2</td><td>Dead season, delivery-only (28 Jun&ndash;12 Jul)</td></tr>
+                            <tr><td>Christmas Gift Vouchers <em>(added)</em></td><td>$2,000,000</td><td>$5,880,000</td><td>$3,880,000</td><td>194.0%</td><td>2.4x</td><td>2</td><td>Redeemable in January (29 Nov&ndash;20 Dec)</td></tr>
 
-                            <tr class="matrix-total"><td>TOTAL 2027 &mdash; 33 campaigns / 7 areas</td><td>$145,700,000</td><td>$553,600,386</td><td>$407,900,386</td><td>280.0%</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
+                            <tr class="matrix-total"><td>TOTAL 2027 &mdash; 38 campaigns / 7 areas</td><td>$157,500,000</td><td>$591,304,386</td><td>$433,804,386</td><td>275.4%</td><td>&mdash;</td><td>&mdash;</td><td>&mdash;</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -1458,17 +1645,17 @@
                         </thead>
                         <tbody>
                             <tr><td>Launch</td><td>$5,000,000</td><td>$19,025,000</td><td style="color:#2E7D4F; font-weight:700;">$14,025,000</td><td>280.5%</td><td>3.81x</td></tr>
-                            <tr><td>Digital Advertising</td><td>$55,100,000</td><td>$221,390,909</td><td style="color:#2E7D4F; font-weight:700;">$166,290,909</td><td>301.8%</td><td>4.02x</td></tr>
-                            <tr><td>Delivery &amp; Loyalty</td><td>$47,800,000</td><td>$176,611,227</td><td style="color:#2E7D4F; font-weight:700;">$128,811,227</td><td>269.5%</td><td>3.69x</td></tr>
+                            <tr><td>Digital Advertising</td><td>$59,300,000</td><td>$232,466,909</td><td style="color:#2E7D4F; font-weight:700;">$173,166,909</td><td>292.0%</td><td>3.92x</td></tr>
+                            <tr><td>Delivery &amp; Loyalty</td><td>$50,000,000</td><td>$188,623,227</td><td style="color:#2E7D4F; font-weight:700;">$138,623,227</td><td>277.2%</td><td>3.77x</td></tr>
                             <tr><td>Special Dates</td><td>$20,700,000</td><td>$90,945,000</td><td style="color:#2E7D4F; font-weight:700;">$70,245,000</td><td>339.3%</td><td>4.39x</td></tr>
                             <tr><td>Community &amp; Partnerships</td><td>$10,800,000</td><td>$29,528,750</td><td style="color:#2E7D4F; font-weight:700;">$18,728,750</td><td>173.4%</td><td>2.73x</td></tr>
                             <tr><td>Product &amp; Menu</td><td>$3,000,000</td><td>$9,000,000</td><td style="color:#2E7D4F; font-weight:700;">$6,000,000</td><td>200.0%</td><td>3.00x</td></tr>
-                            <tr><td>Low Season</td><td>$3,300,000</td><td>$7,099,500</td><td style="color:#2E7D4F; font-weight:700;">$3,799,500</td><td>115.1%</td><td>2.15x</td></tr>
-                            <tr class="matrix-total"><td>TOTAL 2027</td><td>$145,700,000</td><td>$553,600,386</td><td style="color:#2E7D4F;">$407,900,386</td><td>280.0%</td><td>3.80x</td></tr>
+                            <tr><td>Low Season</td><td>$8,700,000</td><td>$21,715,500</td><td style="color:#2E7D4F; font-weight:700;">$13,015,500</td><td>149.6%</td><td>2.50x</td></tr>
+                            <tr class="matrix-total"><td>TOTAL 2027</td><td>$157,500,000</td><td>$591,304,386</td><td style="color:#2E7D4F;">$433,804,386</td><td>275.4%</td><td>3.75x</td></tr>
                         </tbody>
                     </table>
                 </div>
-                <p style="font-size:0.85rem; opacity:0.75; margin-top:-8px;">All 7 areas are net positive &mdash; every peso invested returns at least $2.15 in revenue, led by Special Dates (4.39x) and Digital Advertising (4.02x).</p>
+                <p style="font-size:0.85rem; opacity:0.75; margin-top:-8px;">All 7 areas are net positive &mdash; every peso invested returns at least $2.50 in revenue, led by Special Dates (4.39x) and Digital Advertising (3.92x).</p>
 
                 <h4 style="margin-top:20px; margin-bottom:10px;">Monthly Investment vs. Revenue (Forecast 2027)</h4>
                 <div class="matrix-table-wrap">
@@ -1477,23 +1664,23 @@
                             <tr><th>Month</th><th>Investment</th><th>Revenue</th><th>Net Benefit</th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>January</td><td>$10,100,000</td><td>$37,320,000</td><td>$27,220,000</td></tr>
+                            <tr><td>January</td><td>$11,900,000</td><td>$42,936,000</td><td>$31,036,000</td></tr>
                             <tr><td>February</td><td>$17,159,091</td><td>$67,301,136</td><td>$50,142,045</td></tr>
                             <tr><td>March</td><td>$11,209,091</td><td>$34,832,455</td><td>$23,623,364</td></tr>
-                            <tr><td>April</td><td>$10,209,091</td><td>$30,984,818</td><td>$20,775,727</td></tr>
-                            <tr><td>May</td><td>$13,459,091</td><td>$51,242,864</td><td>$37,783,773</td></tr>
-                            <tr><td>June</td><td>$11,109,091</td><td>$38,582,091</td><td>$27,473,000</td></tr>
-                            <tr><td>July</td><td>$11,109,091</td><td>$40,412,727</td><td>$29,303,636</td></tr>
-                            <tr><td>August</td><td>$14,209,091</td><td>$50,901,614</td><td>$36,692,523</td></tr>
-                            <tr><td>September</td><td>$12,159,091</td><td>$48,155,500</td><td>$35,996,409</td></tr>
-                            <tr><td>October</td><td>$13,009,091</td><td>$48,194,000</td><td>$35,184,909</td></tr>
-                            <tr><td>November</td><td>$11,759,091</td><td>$49,119,636</td><td>$37,360,545</td></tr>
-                            <tr><td>December</td><td>$10,209,091</td><td>$56,553,545</td><td>$46,344,454</td></tr>
-                            <tr class="matrix-total"><td>TOTAL</td><td>$145,700,000</td><td>$553,600,386</td><td>$407,900,386</td></tr>
+                            <tr><td>April</td><td>$10,809,091</td><td>$32,310,818</td><td>$21,501,727</td></tr>
+                            <tr><td>May</td><td>$14,059,091</td><td>$52,880,864</td><td>$38,821,773</td></tr>
+                            <tr><td>June</td><td>$12,509,091</td><td>$41,584,091</td><td>$29,075,000</td></tr>
+                            <tr><td>July</td><td>$12,509,091</td><td>$43,572,727</td><td>$31,063,636</td></tr>
+                            <tr><td>August</td><td>$14,809,091</td><td>$52,539,614</td><td>$37,730,523</td></tr>
+                            <tr><td>September</td><td>$12,759,091</td><td>$49,871,500</td><td>$37,112,409</td></tr>
+                            <tr><td>October</td><td>$13,609,091</td><td>$49,910,000</td><td>$36,300,909</td></tr>
+                            <tr><td>November</td><td>$12,759,091</td><td>$51,879,636</td><td>$39,120,545</td></tr>
+                            <tr><td>December</td><td>$13,409,091</td><td>$71,685,545</td><td>$58,276,455</td></tr>
+                            <tr class="matrix-total"><td>TOTAL</td><td>$157,500,000</td><td>$591,304,386</td><td>$433,804,386</td></tr>
                         </tbody>
                     </table>
                 </div>
-                <p style="font-size:0.85rem; opacity:0.75; margin-top:-8px;">February and December are the strongest months (university welcome-back + Valentine's Day; Christmas &amp; year-end Party Pack), while March&ndash;April dip with the low season.</p>
+                <p style="font-size:0.85rem; opacity:0.75; margin-top:-8px;">December and February are now the strongest months (Christmas &amp; year-end Party Pack plus the new December loyalty boost; university welcome-back + Valentine's Day), while March&ndash;April still dip with the low season.</p>
 
                 <h4 style="margin-top:20px; margin-bottom:10px;">Budget &amp; Revenue Composition</h4>
                 <div class="chart-row">
@@ -1501,14 +1688,14 @@
                         <h4 class="chart-panel-title">Investment Share by Area</h4>
                         <svg viewBox="0 0 36 36" class="donut-chart">
                             <path class="donut-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#2E7D4F; stroke-linecap:butt;" stroke-dasharray="3.4, 96.6" stroke-dashoffset="0" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#84592B; stroke-linecap:butt;" stroke-dasharray="37.8, 62.2" stroke-dashoffset="-3.4" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#743014; stroke-linecap:butt;" stroke-dasharray="32.8, 67.2" stroke-dashoffset="-41.2" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#E3A72F; stroke-linecap:butt;" stroke-dasharray="14.2, 85.8" stroke-dashoffset="-74.0" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#9D9167; stroke-linecap:butt;" stroke-dasharray="7.4, 92.6" stroke-dashoffset="-88.2" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#5B6178; stroke-linecap:butt;" stroke-dasharray="2.1, 97.9" stroke-dashoffset="-95.6" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#6B4622; stroke-linecap:butt;" stroke-dasharray="2.3, 97.7" stroke-dashoffset="-97.7" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <text x="18" y="20.5" class="donut-label">$146M</text>
+                            <path class="donut-segment" style="stroke:#2E7D4F; stroke-linecap:butt;" stroke-dasharray="3.2, 96.8" stroke-dashoffset="0" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#84592B; stroke-linecap:butt;" stroke-dasharray="37.7, 62.3" stroke-dashoffset="-3.2" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#743014; stroke-linecap:butt;" stroke-dasharray="31.7, 68.3" stroke-dashoffset="-40.9" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#E3A72F; stroke-linecap:butt;" stroke-dasharray="13.1, 86.9" stroke-dashoffset="-72.6" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#9D9167; stroke-linecap:butt;" stroke-dasharray="6.9, 93.1" stroke-dashoffset="-85.7" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#5B6178; stroke-linecap:butt;" stroke-dasharray="1.9, 98.1" stroke-dashoffset="-92.6" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#6B4622; stroke-linecap:butt;" stroke-dasharray="5.5, 94.5" stroke-dashoffset="-94.5" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.5" class="donut-label">$158M</text>
                         </svg>
                         <p class="chart-caption">Total 2027 marketing budget, by area &mdash; color key below</p>
                     </div>
@@ -1516,14 +1703,14 @@
                         <h4 class="chart-panel-title">Revenue Share by Area</h4>
                         <svg viewBox="0 0 36 36" class="donut-chart">
                             <path class="donut-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#2E7D4F; stroke-linecap:butt;" stroke-dasharray="3.4, 96.6" stroke-dashoffset="0" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#84592B; stroke-linecap:butt;" stroke-dasharray="40.0, 60.0" stroke-dashoffset="-3.4" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#743014; stroke-linecap:butt;" stroke-dasharray="31.9, 68.1" stroke-dashoffset="-43.4" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#E3A72F; stroke-linecap:butt;" stroke-dasharray="16.4, 83.6" stroke-dashoffset="-75.3" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#9D9167; stroke-linecap:butt;" stroke-dasharray="5.3, 94.7" stroke-dashoffset="-91.7" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#5B6178; stroke-linecap:butt;" stroke-dasharray="1.6, 98.4" stroke-dashoffset="-97.0" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <path class="donut-segment" style="stroke:#6B4622; stroke-linecap:butt;" stroke-dasharray="1.4, 98.6" stroke-dashoffset="-98.6" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            <text x="18" y="20.5" class="donut-label">$554M</text>
+                            <path class="donut-segment" style="stroke:#2E7D4F; stroke-linecap:butt;" stroke-dasharray="3.2, 96.8" stroke-dashoffset="0" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#84592B; stroke-linecap:butt;" stroke-dasharray="39.3, 60.7" stroke-dashoffset="-3.2" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#743014; stroke-linecap:butt;" stroke-dasharray="31.9, 68.1" stroke-dashoffset="-42.5" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#E3A72F; stroke-linecap:butt;" stroke-dasharray="15.4, 84.6" stroke-dashoffset="-74.4" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#9D9167; stroke-linecap:butt;" stroke-dasharray="5.0, 95.0" stroke-dashoffset="-89.8" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#5B6178; stroke-linecap:butt;" stroke-dasharray="1.5, 98.5" stroke-dashoffset="-94.8" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="donut-segment" style="stroke:#6B4622; stroke-linecap:butt;" stroke-dasharray="3.7, 96.3" stroke-dashoffset="-96.3" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.5" class="donut-label">$591M</text>
                         </svg>
                         <p class="chart-caption">Total 2027 forecast revenue, by area &mdash; color key below</p>
                     </div>
@@ -1535,13 +1722,13 @@
                             <tr><th>Area</th><th>Investment Share</th><th>Revenue Share</th></tr>
                         </thead>
                         <tbody>
-                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#2E7D4F;"></span>Launch</td><td>3.4%</td><td>3.4%</td></tr>
-                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#84592B;"></span>Digital Advertising</td><td>37.8%</td><td>40.0%</td></tr>
-                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#743014;"></span>Delivery &amp; Loyalty</td><td>32.8%</td><td>31.9%</td></tr>
-                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#E3A72F;"></span>Special Dates</td><td>14.2%</td><td>16.4%</td></tr>
-                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#9D9167;"></span>Community &amp; Partnerships</td><td>7.4%</td><td>5.3%</td></tr>
-                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#5B6178;"></span>Product &amp; Menu</td><td>2.1%</td><td>1.6%</td></tr>
-                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#6B4622;"></span>Low Season</td><td>2.3%</td><td>1.4%</td></tr>
+                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#2E7D4F;"></span>Launch</td><td>3.2%</td><td>3.2%</td></tr>
+                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#84592B;"></span>Digital Advertising</td><td>37.7%</td><td>39.3%</td></tr>
+                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#743014;"></span>Delivery &amp; Loyalty</td><td>31.7%</td><td>31.9%</td></tr>
+                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#E3A72F;"></span>Special Dates</td><td>13.1%</td><td>15.4%</td></tr>
+                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#9D9167;"></span>Community &amp; Partnerships</td><td>6.9%</td><td>5.0%</td></tr>
+                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#5B6178;"></span>Product &amp; Menu</td><td>1.9%</td><td>1.5%</td></tr>
+                            <tr><td><span style="display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:8px; background-color:#6B4622;"></span>Low Season</td><td>5.5%</td><td>3.7%</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -1551,35 +1738,35 @@
                         <h4 class="chart-panel-title">Investment by Area</h4>
                         <ul class="bar-chart">
                             <li>
-                                <div class="bar-row-label"><span>Digital Advertising</span><strong>$55.1M</strong></div>
+                                <div class="bar-row-label"><span>Digital Advertising</span><strong>$59.3M</strong></div>
                                 <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
                             </li>
                             <li>
-                                <div class="bar-row-label"><span>Delivery &amp; Loyalty</span><strong>$47.8M</strong></div>
-                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:86.8%;"></div></div>
+                                <div class="bar-row-label"><span>Delivery &amp; Loyalty</span><strong>$50.0M</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:84.3%;"></div></div>
                             </li>
                             <li>
                                 <div class="bar-row-label"><span>Special Dates</span><strong>$20.7M</strong></div>
-                                <div class="bar-track"><div class="bar-fill" style="width:37.6%;"></div></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:34.9%;"></div></div>
                             </li>
                             <li>
                                 <div class="bar-row-label"><span>Community &amp; Partnerships</span><strong>$10.8M</strong></div>
-                                <div class="bar-track"><div class="bar-fill" style="width:19.6%;"></div></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:18.2%;"></div></div>
                             </li>
                             <li>
-                                <div class="bar-row-label"><span>Low Season</span><strong>$3.3M</strong></div>
-                                <div class="bar-track"><div class="bar-fill" style="width:6.0%;"></div></div>
-                            </li>
-                            <li>
-                                <div class="bar-row-label"><span>Product &amp; Menu</span><strong>$3.0M</strong></div>
-                                <div class="bar-track"><div class="bar-fill" style="width:5.4%;"></div></div>
+                                <div class="bar-row-label"><span>Low Season</span><strong>$8.7M</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:14.7%;"></div></div>
                             </li>
                             <li>
                                 <div class="bar-row-label"><span>Launch</span><strong>$5.0M</strong></div>
-                                <div class="bar-track"><div class="bar-fill" style="width:9.1%;"></div></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:8.4%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="bar-row-label"><span>Product &amp; Menu</span><strong>$3.0M</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:5.1%;"></div></div>
                             </li>
                         </ul>
-                        <p class="chart-caption" style="margin-top:14px;">All 7 areas, scaled to the largest budget line (Digital Advertising, $55.1M).</p>
+                        <p class="chart-caption" style="margin-top:14px;">All 7 areas, scaled to the largest budget line (Digital Advertising, $59.3M).</p>
                     </div>
                     <div class="chart-panel">
                         <h4 class="chart-panel-title">Revenue Multiple by Area</h4>
@@ -1589,16 +1776,16 @@
                                 <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:100%;"></div></div>
                             </li>
                             <li>
-                                <div class="bar-row-label"><span>Digital Advertising</span><strong>4.02x</strong></div>
-                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:91.6%;"></div></div>
+                                <div class="bar-row-label"><span>Digital Advertising</span><strong>3.92x</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:89.3%;"></div></div>
                             </li>
                             <li>
                                 <div class="bar-row-label"><span>Launch</span><strong>3.81x</strong></div>
                                 <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:86.8%;"></div></div>
                             </li>
                             <li>
-                                <div class="bar-row-label"><span>Delivery &amp; Loyalty</span><strong>3.69x</strong></div>
-                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:84.1%;"></div></div>
+                                <div class="bar-row-label"><span>Delivery &amp; Loyalty</span><strong>3.77x</strong></div>
+                                <div class="bar-track"><div class="bar-fill bar-fill-accent" style="width:85.9%;"></div></div>
                             </li>
                             <li>
                                 <div class="bar-row-label"><span>Product &amp; Menu</span><strong>3.00x</strong></div>
@@ -1609,8 +1796,8 @@
                                 <div class="bar-track"><div class="bar-fill" style="width:62.2%;"></div></div>
                             </li>
                             <li>
-                                <div class="bar-row-label"><span>Low Season</span><strong>2.15x</strong></div>
-                                <div class="bar-track"><div class="bar-fill" style="width:49.0%;"></div></div>
+                                <div class="bar-row-label"><span>Low Season</span><strong>2.50x</strong></div>
+                                <div class="bar-track"><div class="bar-fill" style="width:57.0%;"></div></div>
                             </li>
                         </ul>
                         <p class="chart-caption" style="margin-top:14px;">Revenue &divide; Investment per area, scaled to the highest multiple (4.39x). Every area clears 2x, so all are worth keeping in the plan.</p>
