@@ -544,6 +544,22 @@
     border-bottom: 1px solid rgba(157, 145, 103, 0.25);
 }
 
+/* Dense variant for very wide tables (e.g. the 53-column campaign x month
+   grid) -- generous default padding on 50+ columns reads as sparse/cramped
+   text floating in whitespace, not compact. Tighten padding instead of just
+   shrinking the font. */
+.matrix-table--dense th,
+.matrix-table--dense td {
+    padding: 6px 9px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.matrix-table--dense th:first-child,
+.matrix-table--dense td:first-child {
+    text-align: left;
+}
+
 .matrix-table tr.matrix-group td {
     background-color: var(--color-superficie);
     font-weight: 700;
@@ -668,6 +684,31 @@
     padding: 6px 10px;
     position: sticky;
     left: 0;
+}
+
+/* Daily Gantt (365-column variant): every day gets its own numbered, bordered
+   column -- a thin divider between every day, a heavier one at month starts. */
+.gantt-table--daily th.gantt-day-tick,
+.gantt-table--daily th.band,
+.gantt-table--daily td:not(.gantt-task) {
+    min-width: 15px;
+    max-width: 15px;
+    border-left: 1px solid rgba(157, 145, 103, 0.25);
+    border-right: 1px solid rgba(157, 145, 103, 0.25);
+}
+
+.gantt-table--daily th.gantt-day-tick {
+    font-size: 0.62rem;
+    font-weight: 600;
+    padding: 4px 0 3px;
+}
+
+.gantt-table--daily th.band {
+    padding: 3px 0;
+}
+
+.gantt-table--daily .m-start {
+    border-left: 3px solid rgba(68, 45, 28, 0.55);
 }
 
 /* Cost/Benefit comparison table: Forecast Investment | Forecast Benefit | ROI per month */
@@ -1481,12 +1522,14 @@
     letter-spacing: 0.4px;
 }
 
-.job-card ul {
+.job-card ul,
+.job-card ol {
     margin: 0 0 14px;
     padding-left: 20px;
 }
 
-.job-card ul:last-child {
+.job-card ul:last-child,
+.job-card ol:last-child {
     margin-bottom: 0;
 }
 
@@ -1668,14 +1711,16 @@
     box-shadow: 0 4px 10px rgba(68, 45, 28, 0.06);
     margin: 14px 0 20px;
     text-align: center;
+    overflow-x: auto;
 }
 
 .flowchart-figure img {
     display: block;
-    width: 100%;
-    max-width: 460px;
     height: auto;
     margin: 0 auto;
+    width: 100%;
+    max-width: 980px;
+    min-width: 680px;
 }
 
 .flowchart-figure figcaption {
