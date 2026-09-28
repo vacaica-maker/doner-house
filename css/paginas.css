@@ -1731,6 +1731,74 @@
 }
 
 /* ========================================================
+   FLOWCHART TECHNICAL SHEET & SYMBOL LEGEND
+======================================================== */
+.flow-legend {
+    list-style: none;
+    padding: 0;
+    margin: 14px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    font-size: 0.85rem;
+}
+
+.flow-legend li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fl-swatch {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 24px;
+    height: 16px;
+    border: 2px solid var(--color-primario);
+    background: var(--color-blanco);
+    box-sizing: border-box;
+}
+
+.fl-terminator {
+    border-radius: 8px;
+    background: var(--color-primario);
+}
+
+.fl-decision {
+    width: 16px;
+    height: 16px;
+    border-color: var(--color-acento);
+    transform: rotate(45deg);
+}
+
+.fl-document {
+    border-color: var(--color-acento);
+    border-radius: 2px 2px 8px 8px / 2px 2px 10px 10px;
+}
+
+.fl-database {
+    border-color: var(--color-acento);
+    background: var(--color-superficie);
+    border-radius: 50% / 32%;
+}
+
+.fl-delay {
+    border-color: var(--color-primario-oscuro);
+    background: var(--color-superficie);
+    border-radius: 0 50% 50% 0;
+}
+
+.fl-subprocess {
+    box-shadow: inset 3px 0 0 var(--color-primario), inset -3px 0 0 var(--color-primario);
+}
+
+.flow-meta-card .job-meta {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* ========================================================
    KPI FORMULA & EXAMPLE (3.3.5 Controlling)
 ======================================================== */
 .kpi-formula {

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 1222" width="1070" height="1222" role="img" aria-label="Production Lab flowchart: Medium Döner Kebab Combo, from purchasing to service">
-  <title>Production Lab flowchart: Medium Döner Kebab Combo, from purchasing to service</title>
-  <rect x="0" y="0" width="1070" height="1222" fill="#E8D1A7" opacity="0.35"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1110 1470" width="1110" height="1470" role="img" aria-label="Production Lab flowchart: Medium Döner Kebab Combo, from purchasing to service, with swimlanes for Store Manager and Store Associates">
+  <title>Production Lab flowchart: Medium Döner Kebab Combo, from purchasing to service, with swimlanes for Store Manager and Store Associates</title>
+  <rect x="0" y="0" width="1110" height="1470" fill="#E8D1A7" opacity="0.35"/>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#84592B"/>
@@ -9,91 +9,121 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#743014"/>
     </marker>
   </defs>
-<text x="290.0" y="28" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="17" font-weight="700" fill="#84592B">SUPPLY CHAIN (WEEKLY CADENCE)</text>
-<text x="790.0" y="28" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="17" font-weight="700" fill="#743014">KITCHEN LINE (PER ORDER, ≈2.1 MIN)</text>
-<line x1="290.0" y1="120" x2="290.0" y2="156" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="290.0" y1="311" x2="290.0" y2="347" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="290.0" y1="485" x2="290.0" y2="521" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="290.0" y1="659" x2="290.0" y2="695" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="790.0" y1="218" x2="790.0" y2="254" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="790.0" y1="352" x2="790.0" y2="388" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="790.0" y1="466" x2="790.0" y2="502" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="790.0" y1="656" x2="790.0" y2="692" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="790.0" y1="770" x2="790.0" y2="806" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="790.0" y1="904" x2="790.0" y2="940" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="790.0" y1="1060" x2="790.0" y2="1096" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M510,764.0 L540.0,764.0 L540.0,139.0 L570,139.0" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<rect x="70" y="60" width="440" height="60" rx="30.0" ry="30.0" fill="#84592B" stroke="#442D1C" stroke-width="2"/>
-<text x="290.0" y="96.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Weekly Cycle Begins</text>
-<rect x="70" y="156" width="440" height="155" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="70" y="156" width="7" height="155" rx="3" ry="3" fill="#84592B"/>
-<text x="92" y="183" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Purchasing</text>
-<text x="92" y="202" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Meat: 2×/week, from the approved</text>
-<text x="104" y="221" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">supplier (§2.6.4)</text>
-<text x="92" y="240" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Produce (lettuce, tomato, onion):</text>
-<text x="104" y="259" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">3×/week, wholesale market</text>
-<text x="92" y="278" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Pita, sauces, fries, beverages: 1×/week</text>
-<rect x="70" y="347" width="440" height="138" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="70" y="347" width="7" height="138" rx="3" ry="3" fill="#84592B"/>
-<text x="92" y="374" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Receiving &amp; Quality Check</text>
-<text x="92" y="394" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Check temperature, expiration dates and</text>
-<text x="92" y="414" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">delivered weight; reject or return non-</text>
-<text x="92" y="434" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">conforming batches.</text>
-<text x="92" y="452" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">≈15 min/delivery · Meat ≤4°C</text>
-<rect x="70" y="521" width="440" height="138" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="70" y="521" width="7" height="138" rx="3" ry="3" fill="#84592B"/>
-<text x="92" y="548" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Storage</text>
-<text x="92" y="568" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Meat marinates refrigerated before</text>
-<text x="92" y="588" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">roasting; produce refrigerated; fries</text>
-<text x="92" y="608" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">frozen; dry goods in the pantry.</text>
-<text x="92" y="626" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">Marination: 12–24 h</text>
-<rect x="70" y="695" width="440" height="138" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="70" y="695" width="7" height="138" rx="3" ry="3" fill="#84592B"/>
-<text x="92" y="722" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Pre-Shift Prep</text>
-<text x="92" y="742" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Stack the marinated meat onto the</text>
-<text x="92" y="762" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">rotisserie skewer; cut vegetables into</text>
-<text x="92" y="782" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">service-ready portions; batch the sauce.</text>
-<text x="92" y="800" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">≈45–60 min before opening · Cone ≈8–10 kg</text>
-<rect x="570" y="60" width="440" height="158" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="570" y="60" width="7" height="158" rx="3" ry="3" fill="#84592B"/>
-<text x="592" y="87" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Cooking</text>
-<text x="592" y="107" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">The cone roasts continuously on the</text>
-<text x="592" y="127" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">vertical rotisserie through service;</text>
-<text x="592" y="147" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">shaved as it cooks and replenished as it</text>
-<text x="592" y="167" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">sells.</text>
-<text x="592" y="185" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">Continuous · ≈2–3 h to cook a full cone</text>
-<rect x="570" y="254" width="440" height="98" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="570" y="254" width="7" height="98" rx="3" ry="3" fill="#84592B"/>
-<text x="592" y="281" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Carve</text>
-<text x="592" y="301" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shave meat from the cone for one combo.</text>
-<text x="592" y="319" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">20 sec · 150 g</text>
-<rect x="570" y="388" width="440" height="78" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="570" y="388" width="7" height="78" rx="3" ry="3" fill="#84592B"/>
-<text x="592" y="415" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Warm Pita</text>
-<text x="592" y="433" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">40 sec · 100 g</text>
-<rect x="570" y="502" width="440" height="154" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="570" y="502" width="7" height="154" rx="3" ry="3" fill="#84592B"/>
-<text x="592" y="529" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Add Toppings</text>
-<text x="592" y="548" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Lettuce 25 g</text>
-<text x="592" y="567" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Tomato 30 g</text>
-<text x="592" y="586" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Onion 15 g</text>
-<text x="592" y="605" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Sauce 35 g</text>
-<text x="592" y="623" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">35 sec total</text>
-<rect x="570" y="692" width="440" height="78" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="570" y="692" width="7" height="78" rx="3" ry="3" fill="#84592B"/>
-<text x="592" y="719" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Wrap</text>
-<text x="592" y="737" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">15 sec</text>
-<rect x="570" y="806" width="440" height="98" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="570" y="806" width="7" height="98" rx="3" ry="3" fill="#84592B"/>
-<text x="592" y="833" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Portion Sides</text>
-<text x="592" y="853" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Portion the fries and pour the soda.</text>
-<text x="592" y="871" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">15 sec · Fries 100 g · Soda 400 ml</text>
-<rect x="570" y="940" width="440" height="120" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="570" y="940" width="7" height="120" rx="3" ry="3" fill="#84592B"/>
-<text x="592" y="967" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Packaging</text>
-<text x="592" y="987" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Branded wrap/box, fries sleeve, cup with</text>
-<text x="592" y="1007" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">lid, receipt with the referral QR code</text>
-<text x="592" y="1027" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">(§3.4.4).</text>
-<rect x="570" y="1096" width="440" height="60" rx="30.0" ry="30.0" fill="#743014" stroke="#442D1C" stroke-width="2"/>
-<text x="790.0" y="1132.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Service Handoff — ≈125 sec / 2.1 min Total</text>
+<rect x="90" y="0" width="480" height="329.0" fill="rgba(132,89,43,0.07)"/>
+<rect x="90" y="329.0" width="480" height="804.0" fill="rgba(157,145,103,0.13)"/>
+<line x1="90" y1="329.0" x2="570" y2="329.0" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="100" y="43" width="90.8" height="14" rx="7" fill="#84592B"/>
+<text x="145.4" y="53.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">STORE MANAGER</text>
+<rect x="100" y="330" width="141.2" height="14" rx="7" fill="#84592B"/>
+<text x="170.6" y="340.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">STORE ASSOCIATE (PREP)</text>
+<rect x="590" y="0" width="480" height="1470" fill="rgba(132,89,43,0.07)"/>
+<rect x="600" y="43" width="141.2" height="14" rx="7" fill="#84592B"/>
+<text x="670.6" y="53.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">STORE ASSOCIATE (LINE)</text>
+<text x="330.0" y="28" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="17" font-weight="700" fill="#84592B">SUPPLY CHAIN (WEEKLY CADENCE)</text>
+<text x="830.0" y="28" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="17" font-weight="700" fill="#743014">KITCHEN LINE (PER ORDER, ≈2.1 MIN)</text>
+<line x1="330.0" y1="120" x2="330.0" y2="156" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="311" x2="330.0" y2="347" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="485" x2="330.0" y2="521" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="651" x2="330.0" y2="687" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="807" x2="330.0" y2="843" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="929" x2="330.0" y2="965" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="218" x2="830.0" y2="254" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="352" x2="830.0" y2="388" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="466" x2="830.0" y2="502" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="656" x2="830.0" y2="692" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="770" x2="830.0" y2="806" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="904" x2="830.0" y2="940" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="1040" x2="830.0" y2="1076" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="1178" x2="830.0" y2="1214" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="830.0" y1="1308" x2="830.0" y2="1344" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M110,586.0 L68,586.0 L68,416.0 L110,416.0" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<text x="90" y="576.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<text x="360.0" y="673" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<path d="M110,1034.0 L30,1034.0 L30,233.5 L110,233.5" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<text x="24" y="560.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#743014" transform="rotate(-90 24 560.5)">Next weekly cycle</text>
+<path d="M550,1034.0 L580.0,1034.0 L580.0,139.0 L610,139.0" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<rect x="110" y="60" width="440" height="60" rx="30.0" ry="30.0" fill="#84592B" stroke="#442D1C" stroke-width="2"/>
+<text x="330.0" y="96.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Weekly Cycle Begins</text>
+<rect x="110" y="156" width="440" height="155" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="110" y="156" width="7" height="155" rx="3" ry="3" fill="#84592B"/>
+<text x="132" y="183" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Purchasing</text>
+<text x="132" y="202" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Meat: 2×/week, from the approved</text>
+<text x="144" y="221" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">supplier (§2.6.4)</text>
+<text x="132" y="240" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Produce (lettuce, tomato, onion):</text>
+<text x="144" y="259" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">3×/week, wholesale market</text>
+<text x="132" y="278" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Pita, sauces, fries, beverages: 1×/week</text>
+<rect x="110" y="347" width="440" height="138" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="110" y="347" width="7" height="138" rx="3" ry="3" fill="#84592B"/>
+<text x="132" y="374" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Receiving &amp; Quality Check</text>
+<text x="132" y="394" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Check temperature, expiration dates and</text>
+<text x="132" y="414" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">delivered weight against the purchase</text>
+<text x="132" y="434" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">order.</text>
+<text x="132" y="452" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">≈15 min/delivery · Meat ≤4°C</text>
+<polygon points="330.0,521 550,586.0 330.0,651 110,586.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="330.0" y="592.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Meets QC Standard?</text>
+<rect x="110" y="687" width="440" height="120" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="110" y="687" width="7" height="120" rx="3" ry="3" fill="#84592B"/>
+<text x="132" y="714" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Storage</text>
+<text x="132" y="734" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Meat refrigerated before roasting; produce</text>
+<text x="132" y="754" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">refrigerated; fries frozen; dry goods in</text>
+<text x="132" y="774" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">the pantry.</text>
+<path d="M110,843 L507.0,843 A43.0,43.0 0 0 1 507.0,929 L110,929 Z" fill="#F6EBD6" stroke="#6B4622" stroke-width="2.5" stroke-dasharray="1,0"/>
+<text x="322.0" y="884.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#6B4622">Marination Wait</text>
+<text x="322.0" y="901.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">12–24 h before the cone goes on the rotisserie</text>
+<rect x="110" y="965" width="440" height="138" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="110" y="965" width="7" height="138" rx="3" ry="3" fill="#84592B"/>
+<text x="132" y="992" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Pre-Shift Prep</text>
+<text x="132" y="1012" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Stack the marinated meat onto the</text>
+<text x="132" y="1032" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">rotisserie skewer; cut vegetables into</text>
+<text x="132" y="1052" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">service-ready portions; batch the sauce.</text>
+<text x="132" y="1070" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">≈45–60 min before opening · Cone ≈8–10 kg</text>
+<rect x="610" y="60" width="440" height="158" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="610" y="60" width="7" height="158" rx="3" ry="3" fill="#84592B"/>
+<text x="632" y="87" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Cooking</text>
+<text x="632" y="107" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">The cone roasts continuously on the</text>
+<text x="632" y="127" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">vertical rotisserie through service;</text>
+<text x="632" y="147" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">shaved as it cooks and replenished as it</text>
+<text x="632" y="167" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">sells.</text>
+<text x="632" y="185" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">Continuous · ≈2–3 h to cook a full cone</text>
+<rect x="610" y="254" width="440" height="98" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="610" y="254" width="7" height="98" rx="3" ry="3" fill="#84592B"/>
+<text x="632" y="281" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Carve</text>
+<text x="632" y="301" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shave meat from the cone for one combo.</text>
+<text x="632" y="319" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">20 sec · 150 g</text>
+<rect x="610" y="388" width="440" height="78" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="610" y="388" width="7" height="78" rx="3" ry="3" fill="#84592B"/>
+<text x="632" y="415" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Warm Pita</text>
+<text x="632" y="433" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">40 sec · 100 g</text>
+<rect x="610" y="502" width="440" height="154" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="610" y="502" width="7" height="154" rx="3" ry="3" fill="#84592B"/>
+<text x="632" y="529" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Add Toppings</text>
+<text x="632" y="548" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Lettuce 25 g</text>
+<text x="632" y="567" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Tomato 30 g</text>
+<text x="632" y="586" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Onion 15 g</text>
+<text x="632" y="605" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">&#8226; Sauce 35 g</text>
+<text x="632" y="623" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">35 sec total</text>
+<rect x="610" y="692" width="440" height="78" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="610" y="692" width="7" height="78" rx="3" ry="3" fill="#84592B"/>
+<text x="632" y="719" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Wrap</text>
+<text x="632" y="737" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">15 sec</text>
+<rect x="610" y="806" width="440" height="98" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="610" y="806" width="7" height="98" rx="3" ry="3" fill="#84592B"/>
+<text x="632" y="833" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Portion Sides</text>
+<text x="632" y="853" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Portion the fries and pour the soda.</text>
+<text x="632" y="871" font-family="'Raleway', Arial, sans-serif" font-size="12.5" font-style="italic" fill="#9D9167">15 sec · Fries 100 g · Soda 400 ml</text>
+<rect x="610" y="940" width="440" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="610" y="940" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
+<text x="632" y="967" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Packaging</text>
+<text x="632" y="987" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Branded wrap/box, fries sleeve, cup with</text>
+<text x="632" y="1007" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">lid.</text>
+<path d="M610,1076 L1050,1076 L1050,1166 C975.2,1174 865.2,1158 830.0,1166 C794.8,1174 684.8,1174 610,1166 Z" fill="#FFFDF8" stroke="#743014" stroke-width="2.5"/>
+<text x="632" y="1103" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Print Receipt</text>
+<text x="632" y="1123" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Includes the referral QR code (§3.4.4).</text>
+<path d="M610,1228 A220.0,14 0 0 0 1050,1228 L1050,1294 A220.0,14 0 0 1 610,1294 Z" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<ellipse cx="830.0" cy="1228" rx="220.0" ry="14" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="830.0" y="1258" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#743014">Log Sale in POS/MIS</text>
+<text x="830.0" y="1274" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">Feeds R&amp;D data (§3.7.1) and the MIS stack</text>
+<text x="830.0" y="1290" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">(§3.8)</text>
+<rect x="610" y="1344" width="440" height="60" rx="30.0" ry="30.0" fill="#743014" stroke="#442D1C" stroke-width="2"/>
+<text x="830.0" y="1380.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Service Handoff — ≈125 sec / 2.1 min Total</text>
 </svg>

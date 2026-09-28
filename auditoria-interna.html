@@ -440,12 +440,36 @@
                     right people in the right roles. The flowchart below maps D&ouml;ner Street's hiring
                     and onboarding process for the Store Manager position end to end: from the moment the
                     vacancy is triggered and the screening filters are set, through posting, scoring, the
-                    background check, and the first 90 days on the job.</p>
+                    background check, and the first 90 days on the job. Swimlanes mark which steps the
+                    Founding Team owns directly and which ones run through Admin/Payroll.</p>
+
+                <div class="job-card flow-meta-card">
+                    <h4>Technical Sheet</h4>
+                    <div class="job-meta">
+                        <span><strong>Process:</strong> Store Manager Hiring &amp; Onboarding</span>
+                        <span><strong>Objective:</strong> Fill the Store Manager vacancy with a qualified candidate and bring them to independent operation within 90 days of hire</span>
+                        <span><strong>Scope:</strong> From the vacancy trigger (resignation, growth, or promotion) to the 30/60/90-day performance review</span>
+                        <span><strong>Responsible:</strong> Founding Team (Owner) &mdash; interviews, offer, and onboarding; Admin/Payroll &mdash; application intake, CV scoring, contract paperwork, and background-check filing</span>
+                        <span><strong>Date:</strong> 2026-09-28</span>
+                        <span><strong>Version:</strong> 2.0</span>
+                        <span><strong>Validation:</strong> Built from the role definitions in &sect;3.3.1&ndash;3.3.2; pending a walkthrough with the Founding Team and outgoing Store Manager before go-live</span>
+                    </div>
+                </div>
 
                 <figure class="flowchart-figure">
                     <img src="imagenes/graficas/flujograma-contratacion-store-manager.svg"
-                        alt="Flowchart of the Store Manager hiring and onboarding process: vacancy trigger occurs; 1. confirm budget and need; 2. define screening filters (2+ years supervisory experience, full shift availability, P&amp;L/inventory literacy, willingness to complete a background and reference check); 3. post the vacancy on Computrabajo, LinkedIn, Bogotá hospitality Facebook/Instagram groups and internal referrals, open 10 business days or until 15 qualified apps; 4. receive applications; 5. score CVs against the rubric (experience and track record 40 pts, shift availability 20 pts, P&amp;L/inventory literacy 20 pts, references and background flag 20 pts; 70/100 minimum to advance); 6. shortlist qualified candidates scoring 70+; 7. first interview; decision — meets requirements? If no, reject and notify, return to shortlist; if yes, continue; 8. practical assessment; 9. final interview; 10. select the best candidate; 11. make job offer, conditional on the background check; decision — candidate accepts? If no, contact next finalist and return to make job offer; if yes, continue; 12. sign conditional employment contract; 13. complete hiring documentation (payroll registration, formal background-check submission, reference verification); decision — background check clear? If no, rescind offer and reopen the search, return to shortlist; if yes, continue; 14. officially hired, contract becomes unconditional; 15. day 1 orientation on policies, the POS/MIS systems and the warranty claim process; 16. week 1 shadow shifts across a high- and low-season shift; 17. 30/60/90-day performance review against the sales-growth KPIs; fully onboarded, independent operation begins.">
+                        alt="Flowchart of the Store Manager hiring and onboarding process, with swimlanes for Founding Team (Owner) and Admin/Payroll. Founding Team lane: vacancy trigger occurs; 1. confirm budget and need; 2. define screening filters (2+ years supervisory experience, full shift availability, P&amp;L/inventory literacy, willingness to complete a background and reference check); 3. post the vacancy on Computrabajo, LinkedIn, Bogotá hospitality Facebook/Instagram groups and internal referrals; delay symbol — application window open, 10 business days or until 15 qualified applications. Admin/Payroll lane: 4. receive applications; 5. score CVs against the rubric (experience and track record 40 pts, shift availability 20 pts, P&amp;L/inventory literacy 20 pts, references and background flag 20 pts; 70/100 minimum to advance). Founding Team lane: 6. shortlist qualified candidates scoring 70+; 7. first interview; decision — meets requirements? If no, reject and notify, return to shortlist; if yes, continue; 8. practical assessment; 9. final interview; 10. select the best candidate; 11. make job offer, conditional on the background check; decision — candidate accepts? If no, contact next finalist and return to make job offer; if yes, continue. Admin/Payroll lane: document symbol — 12. sign conditional employment contract; 13. submit background check and verify references; decision — background check clear? If no, rescind offer and reopen the search, return to shortlist; if yes, continue; database symbol — 14. file candidate record (payroll registration, background-check file, references). Founding Team lane: 15. officially hired, contract becomes unconditional; 16. day 1 orientation on policies, the POS/MIS systems and the warranty claim process; 17. week 1 shadow shifts across a high- and low-season shift; 18. 30/60/90-day performance review against the sales-growth KPIs; predefined-process symbol — run daily production cycle, detailed in the separate §3.6.1 Production Lab flowchart; fully onboarded, independent operation begins.">
                     <figcaption>Store Manager hiring and onboarding process flowchart &mdash; D&ouml;ner Street.</figcaption>
+                    <ul class="flow-legend">
+                        <li><span class="fl-swatch fl-terminator"></span> Terminator &mdash; start / end</li>
+                        <li><span class="fl-swatch"></span> Process &mdash; one action</li>
+                        <li><span class="fl-swatch fl-decision"></span> Decision &mdash; closed question, labeled Yes/No</li>
+                        <li><span class="fl-swatch fl-document"></span> Document &mdash; a report, contract, or form</li>
+                        <li><span class="fl-swatch fl-database"></span> Database &mdash; information stored on record</li>
+                        <li><span class="fl-swatch fl-delay"></span> Delay &mdash; dead time / waiting period</li>
+                        <li><span class="fl-swatch fl-subprocess"></span> Predefined process &mdash; detailed in another flowchart</li>
+                    </ul>
+                    <p style="font-size:0.85rem; opacity:0.75; margin-top:10px;">No off-page connector is used &mdash; the diagram fits a single continuous sheet.</p>
                 </figure>
             </div>
 
@@ -2335,13 +2359,36 @@
                 <h3>3.6.1 Production Lab</h3>
                 <p>The flow splits into two lanes: a weekly-cadence supply chain that keeps the kitchen
                     stocked, and the per-order kitchen line that turns stock into a served combo in about 2
-                    minutes. Every box below carries the time and/or weight David&rsquo;s process and capacity
-                    decisions call for.</p>
+                    minutes. Sub-lanes mark who is responsible for each step (Store Manager for purchasing,
+                    Store Associates for everything else), and every box below carries the time and/or weight
+                    David&rsquo;s process and capacity decisions call for.</p>
+
+                <div class="job-card flow-meta-card">
+                    <h4>Technical Sheet</h4>
+                    <div class="job-meta">
+                        <span><strong>Process:</strong> Production Lab &mdash; Medium D&ouml;ner Kebab Combo</span>
+                        <span><strong>Objective:</strong> Turn purchased inventory into a served combo within the &asymp;2.1-minute kitchen-line target, with full traceability from purchase to POS log</span>
+                        <span><strong>Scope:</strong> From the weekly purchasing cycle through the per-order kitchen line to service handoff</span>
+                        <span><strong>Responsible:</strong> Store Manager &mdash; purchasing decisions; Store Associates &mdash; receiving, storage, prep, and the kitchen line</span>
+                        <span><strong>Date:</strong> 2026-09-28</span>
+                        <span><strong>Version:</strong> 2.0</span>
+                        <span><strong>Validation:</strong> Time/weight figures reused verbatim from &sect;3.4.2 costing; pending a walkthrough with the Store Associates who run the line</span>
+                    </div>
+                </div>
 
                 <figure class="flowchart-figure">
                     <img src="imagenes/graficas/production-lab-flowchart.svg"
-                        alt="Production Lab flowchart for the Medium Döner Kebab Combo, two lanes. Supply Chain (weekly cadence): weekly cycle begins; purchasing (meat 2x/week, produce 3x/week, dry goods 1x/week); receiving and quality check (~15 min/delivery, meat ≤4°C); storage (marination 12-24h); pre-shift prep (~45-60 min before opening, cone ~8-10 kg) — feeds into the Kitchen Line. Kitchen Line (per order, ~2.1 min): cooking (continuous, ~2-3h per cone); carve (20 sec, 150 g); warm pita (40 sec, 100 g); add toppings (35 sec: lettuce 25 g, tomato 30 g, onion 15 g, sauce 35 g); wrap (15 sec); portion sides (15 sec: fries 100 g, soda 400 ml); packaging; service handoff, total ~125 sec / 2.1 min.">
+                        alt="Production Lab flowchart for the Medium Döner Kebab Combo, two lanes with swimlanes. Supply Chain (weekly cadence) — Store Manager sub-lane: weekly cycle begins; purchasing (meat 2x/week, produce 3x/week, dry goods 1x/week). Store Associate (Prep) sub-lane: receiving and quality check (~15 min/delivery, meat ≤4°C); decision — meets QC standard? If no, reject and request replacement from the supplier, loop back to receiving and quality check; if yes, continue; storage (refrigerated/frozen/pantry by item); delay symbol — marination wait, 12-24h before the cone goes on the rotisserie; pre-shift prep (~45-60 min before opening, cone ~8-10 kg) — loops back to purchasing for the next weekly cycle, and also feeds into the Kitchen Line. Kitchen Line (per order, ~2.1 min) — Store Associate (Line) sub-lane: cooking (continuous, ~2-3h per cone); carve (20 sec, 150 g); warm pita (40 sec, 100 g); add toppings (35 sec: lettuce 25 g, tomato 30 g, onion 15 g, sauce 35 g); wrap (15 sec); portion sides (15 sec: fries 100 g, soda 400 ml); packaging; document symbol — print receipt with the referral QR code (§3.4.4); database symbol — log sale in POS/MIS (§3.8), feeding the R&D data sources in §3.7.1; service handoff, total ~125 sec / 2.1 min.">
                     <figcaption>Production Lab flowchart &mdash; Medium D&ouml;ner Kebab Combo, from purchasing to service.</figcaption>
+                    <ul class="flow-legend">
+                        <li><span class="fl-swatch fl-terminator"></span> Terminator &mdash; start / end</li>
+                        <li><span class="fl-swatch"></span> Process &mdash; one action</li>
+                        <li><span class="fl-swatch fl-decision"></span> Decision &mdash; closed question, labeled Yes/No</li>
+                        <li><span class="fl-swatch fl-document"></span> Document &mdash; a report, receipt, or form</li>
+                        <li><span class="fl-swatch fl-database"></span> Database &mdash; information stored on record</li>
+                        <li><span class="fl-swatch fl-delay"></span> Delay &mdash; dead time / waiting period</li>
+                    </ul>
+                    <p style="font-size:0.85rem; opacity:0.75; margin-top:10px;">No predefined-process or off-page connector is used here &mdash; every step in this cycle is detailed directly on this one sheet (the Store Manager hiring flowchart in &sect;3.3.4 is the one that links out to this diagram).</p>
                 </figure>
 
                 <p style="font-size:0.85rem; opacity:0.75; margin-top:14px;">Capacity: 2 Associates on the
