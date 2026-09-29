@@ -192,14 +192,16 @@
 <polygon points="450,3772.0 680,3837.0 450,3902.0 220,3837.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
 <text x="450" y="3843" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Background Check Clear?</text>
 <text x="490" y="3827" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="3787" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="3787" width="7" height="100" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="3814" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Rescind Offer, Reopen Search</text>
-<text x="812" y="3834" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Contract is voided; return to Shortlist to</text>
-<text x="812" y="3854" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">consider the next finalist.</text>
+<rect x="790" y="3768" width="330" height="138.5" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="3768" width="7" height="138.5" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="3795" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Rescind Offer, Reopen Search</text>
+<text x="812" y="3815" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Contract is voided; the next finalist already</text>
+<text x="812" y="3834" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">passed interviews and assessment, so offer</text>
+<text x="812" y="3854" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">them the role directly — return to Make Job</text>
+<text x="812" y="3873" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Offer, not back to Shortlist.</text>
 <path d="M680,3837 L790,3837" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
 <text x="735" y="3827" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,3837 L1160,3837 L1160,1934 L680,1934" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<path d="M1120,3837 L1160,3837 L1160,3233 L680,3233" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
 <path d="M220,3956.0 A230,14 0 0 0 680,3956.0 L680,4022.0 A230,14 0 0 1 220,4022.0 Z" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
 <ellipse cx="450" cy="3956.0" rx="230" ry="14" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
 <text x="450" y="3981" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#743014">16. File Candidate Record</text>
