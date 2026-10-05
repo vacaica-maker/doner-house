@@ -115,13 +115,40 @@ img {
     top: 100%;
     right: 0;
     background-color: var(--color-blanco);
-    min-width: 260px;
+    min-width: 300px;
     max-width: 90vw;
+    max-height: 75vh;
+    overflow-y: auto;
     box-shadow: 0 10px 25px rgba(68, 45, 28, 0.18);
     border-radius: 10px;
     border: 1px solid rgba(68, 45, 28, 0.1);
     padding: 10px 0;
     z-index: 20;
+}
+
+.dropdown-menu .dd-chapter {
+    display: block;
+    padding: 12px 20px 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--color-primario);
+    opacity: 0.55;
+}
+
+.dropdown-menu a.dd-l3 {
+    padding-left: 36px;
+    font-size: 0.85rem;
+    font-weight: 400;
+    opacity: 0.85;
+}
+
+.dropdown-menu a.dd-viewall {
+    margin-top: 6px;
+    border-top: 1px solid rgba(68, 45, 28, 0.1);
+    font-weight: 700;
+    color: var(--color-primario);
 }
 
 .dropdown:hover .dropdown-menu {

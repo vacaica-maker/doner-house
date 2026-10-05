@@ -237,4 +237,32 @@
 <text x="246" y="4740" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">flowchart).</text>
 <rect x="220" y="4814.0" width="460" height="60" rx="30" ry="30" fill="#743014" stroke="#442D1C" stroke-width="2"/>
 <text x="450" y="4850.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Fully Onboarded — Independent Operation Begins</text>
+<line x1="450" y1="100" x2="450" y2="140" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="278" x2="450" y2="318.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="554.5" x2="450" y2="594.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="752.5" x2="450" y2="792.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="950.5" x2="450" y2="990.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1067.5" x2="450" y2="1107.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1171.5" x2="450" y2="1211.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1389.5" x2="450" y2="1429.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1723.0" x2="450" y2="1763.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1893.5" x2="450" y2="1933.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2013.5" x2="450" y2="2053.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2250.5" x2="450" y2="2290.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2420.5" x2="450" y2="2482.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2757.5" x2="450" y2="2797.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2927.5" x2="450" y2="2989.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3089.5" x2="450" y2="3129.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3193.0" x2="450" y2="3233.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3352.0" x2="450" y2="3392.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3522.0" x2="450" y2="3562.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3628.0" x2="450" y2="3668.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3732.0" x2="450" y2="3772.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3902.0" x2="450" y2="3942.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4036.0" x2="450" y2="4076.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4156.0" x2="450" y2="4196.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4296.0" x2="450" y2="4335.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4454.5" x2="450" y2="4494.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4594.5" x2="450" y2="4634.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4774.0" x2="450" y2="4814.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
 </svg>
