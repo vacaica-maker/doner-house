@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1230 4944" width="1230" height="4944" role="img" aria-label="Flowchart of the Döner Street Store Manager hiring and onboarding process, 21 steps and 5 decision points across Founding Team and Admin/Payroll swimlanes: vacancy trigger, confirm budget, define screening filters, post the vacancy, publish a promoted LinkedIn listing (COP $150,000 budget), application window, receive applications, score CVs against the rubric, verify CV accuracy (education, employers, certifications, references, interview cross-check) with a CV-accurate decision looping back to scoring on failure, shortlist candidates, first interview evaluating technical qualifications and soft skills (leadership, communication, teamwork, customer service, problem-solving, adaptability, conflict management) with a meets-requirements decision, practical assessment combining a P&amp;L/staffing scenario and a leadership/customer-service/problem-solving scenario with a passes-assessment decision, final interview, select the best candidate, make job offer with a candidate-accepts decision, sign conditional employment contract, submit background check with a background-clear decision, file candidate record, officially hired, Day 1 orientation, week 1 shadow shifts, 30/60/90-day performance review, handoff to the Production Lab flowchart, fully onboarded.">
-  <title>Flowchart of the Döner Street Store Manager hiring and onboarding process, 21 steps and 5 decision points across Founding Team and Admin/Payroll swimlanes: vacancy trigger, confirm budget, define screening filters, post the vacancy, publish a promoted LinkedIn listing (COP $150,000 budget), application window, receive applications, score CVs against the rubric, verify CV accuracy (education, employers, certifications, references, interview cross-check) with a CV-accurate decision looping back to scoring on failure, shortlist candidates, first interview evaluating technical qualifications and soft skills (leadership, communication, teamwork, customer service, problem-solving, adaptability, conflict management) with a meets-requirements decision, practical assessment combining a P&amp;L/staffing scenario and a leadership/customer-service/problem-solving scenario with a passes-assessment decision, final interview, select the best candidate, make job offer with a candidate-accepts decision, sign conditional employment contract, submit background check with a background-clear decision, file candidate record, officially hired, Day 1 orientation, week 1 shadow shifts, 30/60/90-day performance review, handoff to the Production Lab flowchart, fully onboarded.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1230 4911" width="1230" height="4911" role="img" aria-label="Flowchart of the Döner Street Store Manager hiring and onboarding process, 21 steps and 5 decision points across Founding Team and Admin/Payroll swimlanes: vacancy trigger, confirm budget, define screening filters, post the vacancy, publish a promoted LinkedIn listing (COP $150,000 budget), application window, receive applications, score CVs against the rubric, verify CV accuracy (education, employers, certifications, references, interview cross-check) with a CV-accurate decision looping back to scoring on failure, shortlist candidates, first interview evaluating technical qualifications and soft skills (leadership, communication, teamwork, customer service, problem-solving, adaptability, conflict management) with a meets-requirements decision, practical assessment combining a P&amp;L/staffing scenario and a leadership/customer-service/problem-solving scenario with a passes-assessment decision, final interview, select the best candidate, submit background check with a background-clear decision, make job offer with a candidate-accepts decision, sign employment contract, file candidate record, officially hired, Day 1 orientation, week 1 shadow shifts, 30/60/90-day performance review, handoff to the Production Lab flowchart, fully onboarded.">
+  <title>Flowchart of the Döner Street Store Manager hiring and onboarding process, 21 steps and 5 decision points across Founding Team and Admin/Payroll swimlanes: vacancy trigger, confirm budget, define screening filters, post the vacancy, publish a promoted LinkedIn listing (COP $150,000 budget), application window, receive applications, score CVs against the rubric, verify CV accuracy (education, employers, certifications, references, interview cross-check) with a CV-accurate decision looping back to scoring on failure, shortlist candidates, first interview evaluating technical qualifications and soft skills (leadership, communication, teamwork, customer service, problem-solving, adaptability, conflict management) with a meets-requirements decision, practical assessment combining a P&amp;L/staffing scenario and a leadership/customer-service/problem-solving scenario with a passes-assessment decision, final interview, select the best candidate, submit background check with a background-clear decision, make job offer with a candidate-accepts decision, sign employment contract, file candidate record, officially hired, Day 1 orientation, week 1 shadow shifts, 30/60/90-day performance review, handoff to the Production Lab flowchart, fully onboarded.</title>
   <rect x="0" y="0" width="1230" height="4944" fill="#E8D1A7" opacity="0.35"/>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
@@ -20,14 +20,14 @@
 <line x1="200" y1="1893.5" x2="700" y2="1893.5" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
 <rect x="210" y="1916.5" width="150.2" height="14" rx="7" fill="#84592B"/>
 <text x="285.1" y="1927.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
-<rect x="200" y="3902.0" width="500" height="134.0" fill="rgba(157,145,103,0.13)"/>
+<rect x="200" y="3902.0" width="500" height="101.0" fill="rgba(157,145,103,0.13)"/>
 <line x1="200" y1="3902.0" x2="700" y2="3902.0" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
 <rect x="210" y="3925.0" width="113.0" height="14" rx="7" fill="#84592B"/>
 <text x="266.5" y="3935.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">ADMIN / PAYROLL</text>
-<rect x="200" y="4036.0" width="500" height="738.0" fill="rgba(132,89,43,0.07)"/>
-<line x1="200" y1="4036.0" x2="700" y2="4036.0" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
-<rect x="210" y="4059.0" width="150.2" height="14" rx="7" fill="#84592B"/>
-<text x="285.1" y="4069.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
+<rect x="200" y="4003.0" width="500" height="738.0" fill="rgba(132,89,43,0.07)"/>
+<line x1="200" y1="4003.0" x2="700" y2="4003.0" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="210" y="4026.0" width="150.2" height="14" rx="7" fill="#84592B"/>
+<text x="285.1" y="4036.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
 <rect x="220" y="40" width="460" height="60" rx="30" ry="30" fill="#84592B" stroke="#442D1C" stroke-width="2"/>
 <text x="450" y="76.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Vacancy Trigger Occurs</text>
 <rect x="220" y="140" width="460" height="138" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
@@ -167,102 +167,99 @@
 <rect x="220" y="3129.0" width="460" height="64" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
 <rect x="220" y="3129.0" width="7" height="64" rx="3" ry="3" fill="#84592B"/>
 <text x="242" y="3156" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">12. Select the Best Candidate</text>
-<rect x="220" y="3233.0" width="460" height="119" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="3233.0" width="7" height="119" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="3260" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">13. Make Job Offer</text>
-<text x="242" y="3280" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">$3,500,000/mo, benefits, and proposed</text>
-<text x="242" y="3300" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">start date, conditional on the background</text>
-<text x="242" y="3319" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">check below.</text>
-<polygon points="450,3392.0 680,3457.0 450,3522.0 220,3457.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="3463" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Accepts?</text>
-<text x="490" y="3447" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="3407" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="3407" width="7" height="100" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="3434" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Contact Next Finalist</text>
-<text x="812" y="3454" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Offer the role to the next finalist on the</text>
-<text x="812" y="3474" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">shortlist; return to Make Job Offer.</text>
-<path d="M680,3457 L790,3457" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<text x="735" y="3447" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,3457 L1160,3457 L1160,3233 L680,3233" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
-<path d="M220,3562.0 L680,3562.0 L680,3624.0 C530,3636.0 430,3620.0 450,3628.0 C310,3636.0 260,3624.0 220,3624.0 Z" fill="#FFFDF8" stroke="#743014" stroke-width="2.5"/>
-<text x="242" y="3589" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">14. Sign Conditional Employment Contract</text>
-<rect x="220" y="3668.0" width="460" height="64" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="3668.0" width="7" height="64" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="3695" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">15. Submit Background Check &amp; Verify References</text>
-<polygon points="450,3772.0 680,3837.0 450,3902.0 220,3837.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="3843" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Background Check Clear?</text>
-<text x="490" y="3827" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="3768" width="330" height="138.5" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="3768" width="7" height="138.5" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="3795" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Rescind Offer, Reopen Search</text>
-<text x="812" y="3815" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Contract is voided; the next finalist already</text>
-<text x="812" y="3834" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">passed interviews and assessment, so offer</text>
-<text x="812" y="3854" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">them the role directly — return to Make Job</text>
-<text x="812" y="3873" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Offer, not back to Shortlist.</text>
-<path d="M680,3837 L790,3837" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<text x="735" y="3827" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,3837 L1160,3837 L1160,3233 L680,3233" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
-<path d="M220,3956.0 A230,14 0 0 0 680,3956.0 L680,4022.0 A230,14 0 0 1 220,4022.0 Z" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<ellipse cx="450" cy="3956.0" rx="230" ry="14" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="3981" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#743014">16. File Candidate Record</text>
-<text x="450" y="3997" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">Payroll registration, background-check file,</text>
-<text x="450" y="4013" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">references</text>
-<rect x="220" y="4076.0" width="460" height="80" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4076.0" width="7" height="80" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4103" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">17. Officially Hired</text>
-<text x="242" y="4123" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Contract becomes unconditional.</text>
-<rect x="220" y="4196.0" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4196.0" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4223" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">18. Day 1 Orientation</text>
-<text x="242" y="4243" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Policies, the POS/MIS systems (§3.8), and</text>
-<text x="242" y="4262" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">the warranty claim process (§3.4.3).</text>
-<rect x="220" y="4335.5" width="460" height="119" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4335.5" width="7" height="119" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4362" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">19. Week 1 Shadow Shifts</text>
-<text x="242" y="4382" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shadows the outgoing Store Manager or a</text>
-<text x="242" y="4402" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">senior Associate across a high- and a low-</text>
-<text x="242" y="4422" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">season shift.</text>
-<rect x="220" y="4494.5" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4494.5" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4522" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">20. 30/60/90-Day Performance Review</text>
-<text x="242" y="4542" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Checked against the sales-growth KPIs</text>
-<text x="242" y="4561" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">already defined in §3.3.5 Controlling.</text>
-<rect x="220" y="4634.0" width="460" height="140" rx="10" ry="10" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<line x1="232" y1="4634.0" x2="232" y2="4774.0" stroke="#84592B" stroke-width="2"/>
-<line x1="668" y1="4634.0" x2="668" y2="4774.0" stroke="#84592B" stroke-width="2"/>
-<text x="246" y="4661" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Run Daily Production Cycle</text>
-<text x="246" y="4681" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Store Manager now owns day-to-day</text>
-<text x="246" y="4700" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">execution of the process detailed in</text>
-<text x="246" y="4720" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">§3.6.1 Production Lab (separate</text>
-<text x="246" y="4740" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">flowchart).</text>
-<rect x="220" y="4814.0" width="460" height="60" rx="30" ry="30" fill="#743014" stroke="#442D1C" stroke-width="2"/>
-<text x="450" y="4850.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Fully Onboarded — Independent Operation Begins</text>
-<line x1="450" y1="100" x2="450" y2="140" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="278" x2="450" y2="318.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="554.5" x2="450" y2="594.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="752.5" x2="450" y2="792.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="950.5" x2="450" y2="990.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1067.5" x2="450" y2="1107.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1171.5" x2="450" y2="1211.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1389.5" x2="450" y2="1429.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1723.0" x2="450" y2="1763.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1893.5" x2="450" y2="1933.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2013.5" x2="450" y2="2053.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2250.5" x2="450" y2="2290.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2420.5" x2="450" y2="2482.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2757.5" x2="450" y2="2797.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2927.5" x2="450" y2="2989.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3089.5" x2="450" y2="3129.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3193.0" x2="450" y2="3233.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3352.0" x2="450" y2="3392.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3522.0" x2="450" y2="3562.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3628.0" x2="450" y2="3668.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3732.0" x2="450" y2="3772.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3902.0" x2="450" y2="3942.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4036.0" x2="450" y2="4076.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4156.0" x2="450" y2="4196.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4296.0" x2="450" y2="4335.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4454.5" x2="450" y2="4494.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4594.5" x2="450" y2="4634.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4774.0" x2="450" y2="4814.0" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="3233" width="460" height="64" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="3233" width="7" height="64" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="3260" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">13. Submit Background Check &amp; Verify References</text>
+<polygon points="450,3337 680,3402 450,3467 220,3402" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="3408" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Background Check Clear?</text>
+<text x="490" y="3392" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<rect x="790" y="3352" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="3352" width="7" height="100" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="3379" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Try Next Finalist</text>
+<text x="812" y="3399" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Background check failed; move to the next</text>
+<text x="812" y="3418" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">finalist on the shortlist and rerun this step.</text>
+<path d="M680,3402 L790,3402" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<text x="735" y="3392" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<path d="M1120,3402 L1160,3402 L1160,3233 L680,3233" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<rect x="220" y="3507" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="3507" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="3534" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">14. Make Job Offer</text>
+<text x="242" y="3554" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">$3,500,000/mo, benefits, and a proposed</text>
+<text x="242" y="3573" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">start date — background check already clear.</text>
+<polygon points="450,3647 680,3712 450,3777 220,3712" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="3718" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Accepts?</text>
+<text x="490" y="3702" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<rect x="790" y="3662" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="3662" width="7" height="100" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="3689" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Contact Next Finalist</text>
+<text x="812" y="3709" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Offer the role to the next finalist; return to</text>
+<text x="812" y="3728" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Background Check to clear them first.</text>
+<path d="M680,3712 L790,3712" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<text x="735" y="3702" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<path d="M1120,3712 L1160,3712 L1160,3233 L680,3233" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<path d="M220,3817 L680,3817 L680,3879 C530,3891 430,3875 450,3883 C310,3891 260,3879 220,3879 Z" fill="#FFFDF8" stroke="#743014" stroke-width="2.5"/>
+<text x="242" y="3844" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">15. Sign Employment Contract</text>
+<ellipse cx="450" cy="3937" rx="230" ry="14" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<path d="M220,3937 A230,14 0 0 0 680,3937 L680,4003 A230,14 0 0 1 220,4003 Z" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="3962" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#743014">16. File Candidate Record</text>
+<text x="450" y="3978" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">Payroll registration, background-check file,</text>
+<text x="450" y="3994" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">references</text>
+<rect x="220" y="4043" width="460" height="80" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="4043" width="7" height="80" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="4070" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">17. Officially Hired</text>
+<text x="242" y="4090" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Employment begins; onboarding continues below.</text>
+<rect x="220" y="4163" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="4163" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="4190" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">18. Day 1 Orientation</text>
+<text x="242" y="4210" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Policies, the POS/MIS systems (§3.8), and</text>
+<text x="242" y="4229" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">the warranty claim process (§3.4.3).</text>
+<rect x="220" y="4302.5" width="460" height="119" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="4302.5" width="7" height="119" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="4329" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">19. Week 1 Shadow Shifts</text>
+<text x="242" y="4349" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shadows the outgoing Store Manager or a</text>
+<text x="242" y="4369" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">senior Associate across a high- and a low-</text>
+<text x="242" y="4389" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">season shift.</text>
+<rect x="220" y="4461.5" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="4461.5" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="4489" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">20. 30/60/90-Day Performance Review</text>
+<text x="242" y="4509" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Checked against the sales-growth KPIs</text>
+<text x="242" y="4528" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">already defined in §3.3.5 Controlling.</text>
+<rect x="220" y="4601" width="460" height="140" rx="10" ry="10" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<line x1="232" y1="4601" x2="232" y2="4741" stroke="#84592B" stroke-width="2"/>
+<line x1="668" y1="4601" x2="668" y2="4741" stroke="#84592B" stroke-width="2"/>
+<text x="246" y="4628" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Run Daily Production Cycle</text>
+<text x="246" y="4648" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Store Manager now owns day-to-day</text>
+<text x="246" y="4667" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">execution of the process detailed in</text>
+<text x="246" y="4687" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">§3.6.1 Production Lab (separate</text>
+<text x="246" y="4707" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">flowchart).</text>
+<rect x="220" y="4781" width="460" height="60" rx="30" ry="30" fill="#743014" stroke="#442D1C" stroke-width="2"/>
+<text x="450" y="4817" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Fully Onboarded — Independent Operation Begins</text>
+<line x1="450" y1="67" x2="450" y2="107" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="245" x2="450" y2="285.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="521.5" x2="450" y2="561.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="719.5" x2="450" y2="759.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="917.5" x2="450" y2="957.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1034.5" x2="450" y2="1074.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1138.5" x2="450" y2="1178.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1356.5" x2="450" y2="1396" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1690" x2="450" y2="1730.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1860.5" x2="450" y2="1900.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="1980.5" x2="450" y2="2020.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2217.5" x2="450" y2="2257.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2387.5" x2="450" y2="2449.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2724.5" x2="450" y2="2764.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="2894.5" x2="450" y2="2956.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3056.5" x2="450" y2="3096" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3160" x2="450" y2="3200" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3264" x2="450" y2="3304" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3434" x2="450" y2="3474" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3574" x2="450" y2="3614" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3744" x2="450" y2="3784" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3850" x2="450" y2="3890" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="3970" x2="450" y2="4010" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4090" x2="450" y2="4130" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4263" x2="450" y2="4302.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4421.5" x2="450" y2="4461.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4561.5" x2="450" y2="4601" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="450" y1="4741" x2="450" y2="4781" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
 </svg>
