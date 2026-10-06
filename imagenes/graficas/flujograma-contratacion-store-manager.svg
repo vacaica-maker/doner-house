@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1230 4911" width="1230" height="4911" role="img" aria-label="Flowchart of the Döner Street Store Manager hiring and onboarding process, 21 steps and 5 decision points across Founding Team and Admin/Payroll swimlanes: vacancy trigger, confirm budget, define screening filters, post the vacancy, publish a promoted LinkedIn listing (COP $150,000 budget), application window, receive applications, score CVs against the rubric, verify CV accuracy (education, employers, certifications, references, interview cross-check) with a CV-accurate decision looping back to scoring on failure, shortlist candidates, first interview evaluating technical qualifications and soft skills (leadership, communication, teamwork, customer service, problem-solving, adaptability, conflict management) with a meets-requirements decision, practical assessment combining a P&amp;L/staffing scenario and a leadership/customer-service/problem-solving scenario with a passes-assessment decision, final interview, select the best candidate, submit background check with a background-clear decision, make job offer with a candidate-accepts decision, sign employment contract, file candidate record, officially hired, Day 1 orientation, week 1 shadow shifts, 30/60/90-day performance review, handoff to the Production Lab flowchart, fully onboarded.">
-  <title>Flowchart of the Döner Street Store Manager hiring and onboarding process, 21 steps and 5 decision points across Founding Team and Admin/Payroll swimlanes: vacancy trigger, confirm budget, define screening filters, post the vacancy, publish a promoted LinkedIn listing (COP $150,000 budget), application window, receive applications, score CVs against the rubric, verify CV accuracy (education, employers, certifications, references, interview cross-check) with a CV-accurate decision looping back to scoring on failure, shortlist candidates, first interview evaluating technical qualifications and soft skills (leadership, communication, teamwork, customer service, problem-solving, adaptability, conflict management) with a meets-requirements decision, practical assessment combining a P&amp;L/staffing scenario and a leadership/customer-service/problem-solving scenario with a passes-assessment decision, final interview, select the best candidate, submit background check with a background-clear decision, make job offer with a candidate-accepts decision, sign employment contract, file candidate record, officially hired, Day 1 orientation, week 1 shadow shifts, 30/60/90-day performance review, handoff to the Production Lab flowchart, fully onboarded.</title>
-  <rect x="0" y="0" width="1230" height="4944" fill="#E8D1A7" opacity="0.35"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1230 4228" width="1230" height="4228" role="img" aria-label="Flowchart of the Döner Street Store Manager hiring and onboarding process, 19 numbered steps and 5 decision points across Founding Team and Admin/Payroll swimlanes. Vacancy trigger occurs; 1. confirm budget and need; 2. define screening filters; 3. post the vacancy; 4. publish a promoted LinkedIn listing (COP $150,000 budget); application window open; 5. receive applications. Admin/Payroll: 6. score CVs against the rubric; 7. verify CV accuracy; decision — CV accurate and verifiable? If no, reject the CV and keep scoring the batch. Founding Team: 8. shortlist qualified candidates; 9. first interview; decision — meets job requirements? If no, reject and return to shortlist. 10. practical assessment; decision — passes assessment? If no, reject and return to shortlist. 11. final interview; 12. select the best candidate. Admin/Payroll: 13. submit background check and verify references; decision — background check clear? If no, move to the next finalist and rerun this step. Founding Team: 14. sign employment contract ($3,500,000/mo, benefits, start date — background check already clear, so there is no separate job-offer step); decision — candidate signs? If no, contact the next finalist and return to background check for them. Admin/Payroll: 15. file candidate record. Founding Team: 16. officially hired; 17. day 1 orientation; 18. week 1 shadow shifts; 19. 30/60/90-day performance review; predefined-process — run daily production cycle, detailed in the separate 3.6.1 Production Lab flowchart; fully onboarded, independent operation begins.">
+  <title>Flowchart of the Döner Street Store Manager hiring and onboarding process, 19 numbered steps and 5 decision points across Founding Team and Admin/Payroll swimlanes. Vacancy trigger occurs; 1. confirm budget and need; 2. define screening filters; 3. post the vacancy; 4. publish a promoted LinkedIn listing (COP $150,000 budget); application window open; 5. receive applications. Admin/Payroll: 6. score CVs against the rubric; 7. verify CV accuracy; decision — CV accurate and verifiable? If no, reject the CV and keep scoring the batch. Founding Team: 8. shortlist qualified candidates; 9. first interview; decision — meets job requirements? If no, reject and return to shortlist. 10. practical assessment; decision — passes assessment? If no, reject and return to shortlist. 11. final interview; 12. select the best candidate. Admin/Payroll: 13. submit background check and verify references; decision — background check clear? If no, move to the next finalist and rerun this step. Founding Team: 14. sign employment contract ($3,500,000/mo, benefits, start date — background check already clear, so there is no separate job-offer step); decision — candidate signs? If no, contact the next finalist and return to background check for them. Admin/Payroll: 15. file candidate record. Founding Team: 16. officially hired; 17. day 1 orientation; 18. week 1 shadow shifts; 19. 30/60/90-day performance review; predefined-process — run daily production cycle, detailed in the separate 3.6.1 Production Lab flowchart; fully onboarded, independent operation begins.</title>
+  <rect x="0" y="0" width="1230" height="4228" fill="#E8D1A7" opacity="0.35"/>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#84592B"/>
@@ -9,257 +9,242 @@
       <path d="M0,0 L10,5 L0,10 z" fill="#743014"/>
     </marker>
   </defs>
-<rect x="200" y="0" width="500" height="1171.5" fill="rgba(132,89,43,0.07)"/>
+<rect x="200" y="0" width="500" height="1041" fill="rgba(132,89,43,0.07)"/>
 <rect x="210" y="23" width="150.2" height="14" rx="7" fill="#84592B"/>
 <text x="285.1" y="33.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
-<rect x="200" y="1171.5" width="500" height="722.0" fill="rgba(157,145,103,0.13)"/>
-<line x1="200" y1="1171.5" x2="700" y2="1171.5" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
-<rect x="210" y="1194.5" width="113.0" height="14" rx="7" fill="#84592B"/>
-<text x="266.5" y="1205.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">ADMIN / PAYROLL</text>
-<rect x="200" y="1893.5" width="500" height="2008.5" fill="rgba(132,89,43,0.07)"/>
-<line x1="200" y1="1893.5" x2="700" y2="1893.5" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
-<rect x="210" y="1916.5" width="150.2" height="14" rx="7" fill="#84592B"/>
-<text x="285.1" y="1927.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
-<rect x="200" y="3902.0" width="500" height="101.0" fill="rgba(157,145,103,0.13)"/>
-<line x1="200" y1="3902.0" x2="700" y2="3902.0" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
-<rect x="210" y="3925.0" width="113.0" height="14" rx="7" fill="#84592B"/>
-<text x="266.5" y="3935.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">ADMIN / PAYROLL</text>
-<rect x="200" y="4003.0" width="500" height="738.0" fill="rgba(132,89,43,0.07)"/>
-<line x1="200" y1="4003.0" x2="700" y2="4003.0" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
-<rect x="210" y="4026.0" width="150.2" height="14" rx="7" fill="#84592B"/>
-<text x="285.1" y="4036.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
+<rect x="200" y="1041" width="500" height="572" fill="rgba(157,145,103,0.13)"/>
+<line x1="200" y1="1041" x2="700" y2="1041" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="210" y="1064" width="113.0" height="14" rx="7" fill="#84592B"/>
+<text x="266.5" y="1074.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">ADMIN / PAYROLL</text>
+<rect x="200" y="1613" width="500" height="1127" fill="rgba(132,89,43,0.07)"/>
+<line x1="200" y1="1613" x2="700" y2="1613" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="210" y="1636" width="150.2" height="14" rx="7" fill="#84592B"/>
+<text x="285.1" y="1646.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
+<rect x="200" y="2740" width="500" height="265" fill="rgba(157,145,103,0.13)"/>
+<line x1="200" y1="2740" x2="700" y2="2740" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="210" y="2763" width="113.0" height="14" rx="7" fill="#84592B"/>
+<text x="266.5" y="2773.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">ADMIN / PAYROLL</text>
+<rect x="200" y="3005" width="500" height="325" fill="rgba(132,89,43,0.07)"/>
+<line x1="200" y1="3005" x2="700" y2="3005" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="210" y="3028" width="150.2" height="14" rx="7" fill="#84592B"/>
+<text x="285.1" y="3038.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
+<rect x="200" y="3330" width="500" height="110" fill="rgba(157,145,103,0.13)"/>
+<line x1="200" y1="3330" x2="700" y2="3330" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="210" y="3353" width="113.0" height="14" rx="7" fill="#84592B"/>
+<text x="266.5" y="3363.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">ADMIN / PAYROLL</text>
+<rect x="200" y="3440" width="500" height="788" fill="rgba(132,89,43,0.07)"/>
+<line x1="200" y1="3440" x2="700" y2="3440" stroke="#9D9167" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+<rect x="210" y="3463" width="150.2" height="14" rx="7" fill="#84592B"/>
+<text x="285.1" y="3473.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#FFFDF8">FOUNDING TEAM (OWNER)</text>
 <rect x="220" y="40" width="460" height="60" rx="30" ry="30" fill="#84592B" stroke="#442D1C" stroke-width="2"/>
-<text x="450" y="76.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Vacancy Trigger Occurs</text>
-<rect x="220" y="140" width="460" height="138" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="140" width="7" height="138" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="167" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">1. Confirm Budget &amp; Need</text>
-<text x="242" y="187" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Resignation, growth, or promotion triggers</text>
-<text x="242" y="206" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">the vacancy. Owner confirms the</text>
-<text x="242" y="226" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">$3,500,000/mo role (§3.3.2) is still</text>
-<text x="242" y="246" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">budgeted before opening it.</text>
-<rect x="220" y="318.5" width="460" height="236" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="318.5" width="7" height="236" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="346" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">2. Define Screening Filters</text>
-<text x="242" y="366" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Fix the pass/fail bar before posting</text>
-<text x="242" y="385" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">anything:</text>
-<text x="242" y="404" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• 2+ years restaurant/retail supervisory</text>
-<text x="242" y="424" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">experience</text>
-<text x="242" y="444" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Full availability for rotating shifts,</text>
-<text x="242" y="463" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">incl. weekends</text>
-<text x="242" y="482" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Basic P&amp;L / inventory literacy</text>
-<text x="242" y="502" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Willing to complete a background &amp;</text>
-<text x="242" y="522" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">reference check</text>
-<rect x="220" y="594.5" width="460" height="158" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="594.5" width="7" height="158" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="622" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">3. Post the Vacancy</text>
-<text x="242" y="642" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Computrabajo + LinkedIn (paid listings)</text>
-<text x="242" y="661" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Bogotá hospitality Facebook/Instagram</text>
-<text x="242" y="680" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">groups</text>
-<text x="242" y="700" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Internal referrals (referral bonus</text>
-<text x="242" y="720" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">applies)</text>
-<rect x="220" y="792.5" width="460" height="158" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="792.5" width="7" height="158" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="820" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">4. Publish Promoted LinkedIn Listing</text>
-<text x="242" y="840" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">COP $150,000 total advertising budget.</text>
-<text x="242" y="859" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Not an official fixed LinkedIn rate —</text>
-<text x="242" y="878" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">LinkedIn lets you set a total budget and</text>
-<text x="242" y="898" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">the promotion stops once that limit is</text>
-<text x="242" y="918" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">reached.</text>
-<path d="M220,1067.5 L641.5,1067.5 A38.5,38.5 0 0 1 641.5,990.5 L220,990.5 Z" fill="#F6EBD6" stroke="#6B4622" stroke-width="2.5"/>
-<text x="442" y="1018" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#6B4622">Application Window Open</text>
-<text x="442" y="1035" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">10 business days, or until 15 qualified</text>
-<text x="442" y="1050" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">applications</text>
-<rect x="220" y="1107.5" width="460" height="64" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="1107.5" width="7" height="64" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="1134" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">5. Receive Applications</text>
-<rect x="220" y="1211.5" width="460" height="178" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="1211.5" width="7" height="178" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="1238" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">6. Score CVs Against the Rubric</text>
-<text x="242" y="1258" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Minimum passing score to advance: 70/100.</text>
-<text x="242" y="1278" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Experience &amp; track record — 40 pts</text>
-<text x="242" y="1298" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Shift availability — 20 pts</text>
-<text x="242" y="1317" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• P&amp;L / inventory literacy — 20 pts</text>
-<text x="242" y="1336" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• References &amp; background flag — 20</text>
-<text x="242" y="1356" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">pts</text>
-<rect x="220" y="1429.0" width="460" height="294" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="1429.0" width="7" height="294" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="1456" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">7. Verify CV Accuracy</text>
-<text x="242" y="1476" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Verify education, work experience,</text>
-<text x="242" y="1496" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">certifications and references.</text>
-<text x="242" y="1515" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Contact previous employers to confirm</text>
-<text x="242" y="1534" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">position and employment dates</text>
-<text x="242" y="1554" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Contact universities/institutions to</text>
-<text x="242" y="1574" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">verify degrees and studies</text>
-<text x="242" y="1593" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Verify certificates and training with</text>
-<text x="242" y="1612" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">the issuing institution</text>
-<text x="242" y="1632" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Contact the candidate's professional</text>
-<text x="242" y="1652" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">references</text>
-<text x="242" y="1671" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Compare CV info against interview</text>
-<text x="242" y="1690" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">answers</text>
-<polygon points="450,1763.5 680,1828.5 450,1893.5 220,1828.5" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="1834" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">CV Accurate &amp; Verifiable?</text>
-<text x="490" y="1818" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="1778" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="1778" width="7" height="100" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="1806" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Reject CV</text>
-<text x="812" y="1826" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Discard this CV; continue scoring the</text>
-<text x="812" y="1845" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">remaining applications in the batch.</text>
-<path d="M680,1828 L790,1828" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<text x="735" y="1818" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,1828 L1160,1828 L1160,1212 L680,1212" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
-<rect x="220" y="1933.5" width="460" height="80" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="1933.5" width="7" height="80" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="1960" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">8. Shortlist Qualified Candidates</text>
-<text x="242" y="1980" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Target: 5–8 candidates scoring 70+.</text>
-<rect x="220" y="2053.5" width="460" height="197" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="2053.5" width="7" height="197" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="2080" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">9. First Interview</text>
-<text x="242" y="2100" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">30–40 min screen with the owner:</text>
-<text x="242" y="2120" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">experience, availability, salary</text>
-<text x="242" y="2140" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">expectations.</text>
-<text x="242" y="2159" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Soft skills evaluated: Leadership,</text>
-<text x="242" y="2178" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Communication, Teamwork, Customer</text>
-<text x="242" y="2198" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">service, Problem-solving, Adaptability,</text>
-<text x="242" y="2218" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Conflict management.</text>
-<polygon points="450,2290.5 680,2355.5 450,2420.5 220,2355.5" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="2362" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Meets Job Requirements?</text>
-<text x="450" y="2438.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">Technical qualifications + soft skills</text>
-<text x="490" y="2346" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="2306" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="2306" width="7" height="100" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="2332" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Reject &amp; Notify</text>
-<text x="812" y="2352" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Candidate is notified; return to Shortlist</text>
-<text x="812" y="2372" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">for the next candidate.</text>
-<path d="M680,2356 L790,2356" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<text x="735" y="2346" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,2356 L1160,2356 L1160,1934 L680,1934" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
-<rect x="220" y="2482.5" width="460" height="275" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="2482.5" width="7" height="275" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="2510" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">10. Practical Assessment</text>
-<text x="242" y="2530" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Given a sample high-season week and</text>
-<text x="242" y="2549" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">P&amp;L snapshot (§3.5.1), candidate plans</text>
-<text x="242" y="2568" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">staffing and cost cuts.</text>
-<text x="242" y="2588" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Leadership, customer service &amp;</text>
-<text x="242" y="2608" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">problem-solving scenario: a customer</text>
-<text x="242" y="2627" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">complains about an incorrect order while</text>
-<text x="242" y="2646" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">two employees are having a disagreement</text>
-<text x="242" y="2666" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">— how would you handle it? Evaluates</text>
-<text x="242" y="2686" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">leadership, customer service,</text>
-<text x="242" y="2705" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">communication and problem-solving at</text>
-<text x="242" y="2724" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">once.</text>
-<polygon points="450,2797.5 680,2862.5 450,2927.5 220,2862.5" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="2868" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Passes Assessment?</text>
-<text x="450" y="2945.5" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">Meets the minimum evaluation criteria?</text>
-<text x="490" y="2852" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="2812" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="2812" width="7" height="100" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="2840" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Reject &amp; Notify</text>
-<text x="812" y="2860" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Candidate is notified; return to Shortlist</text>
-<text x="812" y="2879" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">for the next candidate.</text>
-<path d="M680,2862 L790,2862" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<text x="735" y="2852" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,2862 L1160,2862 L1160,1934 L680,1934" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
-<rect x="220" y="2989.5" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="2989.5" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="3016" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">11. Final Interview</text>
-<text x="242" y="3036" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Deeper conversation with the owner on</text>
-<text x="242" y="3056" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">culture fit and long-term commitment.</text>
-<rect x="220" y="3129.0" width="460" height="64" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="3129.0" width="7" height="64" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="3156" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">12. Select the Best Candidate</text>
-<rect x="220" y="3233" width="460" height="64" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="3233" width="7" height="64" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="3260" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">13. Submit Background Check &amp; Verify References</text>
-<polygon points="450,3337 680,3402 450,3467 220,3402" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="3408" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Background Check Clear?</text>
-<text x="490" y="3392" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="3352" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="3352" width="7" height="100" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="3379" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Try Next Finalist</text>
-<text x="812" y="3399" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Background check failed; move to the next</text>
-<text x="812" y="3418" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">finalist on the shortlist and rerun this step.</text>
-<path d="M680,3402 L790,3402" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<text x="735" y="3392" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,3402 L1160,3402 L1160,3233 L680,3233" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
-<rect x="220" y="3507" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="3507" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="3534" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">14. Make Job Offer</text>
-<text x="242" y="3554" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">$3,500,000/mo, benefits, and a proposed</text>
-<text x="242" y="3573" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">start date — background check already clear.</text>
-<polygon points="450,3647 680,3712 450,3777 220,3712" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="3718" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Accepts?</text>
-<text x="490" y="3702" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
-<rect x="790" y="3662" width="330" height="100" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
-<rect x="790" y="3662" width="7" height="100" rx="3" ry="3" fill="#743014"/>
-<text x="812" y="3689" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Contact Next Finalist</text>
-<text x="812" y="3709" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Offer the role to the next finalist; return to</text>
-<text x="812" y="3728" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Background Check to clear them first.</text>
-<path d="M680,3712 L790,3712" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
-<text x="735" y="3702" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
-<path d="M1120,3712 L1160,3712 L1160,3233 L680,3233" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
-<path d="M220,3817 L680,3817 L680,3879 C530,3891 430,3875 450,3883 C310,3891 260,3879 220,3879 Z" fill="#FFFDF8" stroke="#743014" stroke-width="2.5"/>
-<text x="242" y="3844" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">15. Sign Employment Contract</text>
-<ellipse cx="450" cy="3937" rx="230" ry="14" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<path d="M220,3937 A230,14 0 0 0 680,3937 L680,4003 A230,14 0 0 1 220,4003 Z" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
-<text x="450" y="3962" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#743014">16. File Candidate Record</text>
-<text x="450" y="3978" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">Payroll registration, background-check file,</text>
-<text x="450" y="3994" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">references</text>
-<rect x="220" y="4043" width="460" height="80" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4043" width="7" height="80" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4070" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">17. Officially Hired</text>
-<text x="242" y="4090" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Employment begins; onboarding continues below.</text>
-<rect x="220" y="4163" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4163" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4190" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">18. Day 1 Orientation</text>
-<text x="242" y="4210" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Policies, the POS/MIS systems (§3.8), and</text>
-<text x="242" y="4229" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">the warranty claim process (§3.4.3).</text>
-<rect x="220" y="4302.5" width="460" height="119" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4302.5" width="7" height="119" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4329" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">19. Week 1 Shadow Shifts</text>
-<text x="242" y="4349" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shadows the outgoing Store Manager or a</text>
-<text x="242" y="4369" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">senior Associate across a high- and a low-</text>
-<text x="242" y="4389" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">season shift.</text>
-<rect x="220" y="4461.5" width="460" height="100" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<rect x="220" y="4461.5" width="7" height="100" rx="3" ry="3" fill="#84592B"/>
-<text x="242" y="4489" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">20. 30/60/90-Day Performance Review</text>
-<text x="242" y="4509" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Checked against the sales-growth KPIs</text>
-<text x="242" y="4528" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">already defined in §3.3.5 Controlling.</text>
-<rect x="220" y="4601" width="460" height="140" rx="10" ry="10" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
-<line x1="232" y1="4601" x2="232" y2="4741" stroke="#84592B" stroke-width="2"/>
-<line x1="668" y1="4601" x2="668" y2="4741" stroke="#84592B" stroke-width="2"/>
-<text x="246" y="4628" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Run Daily Production Cycle</text>
-<text x="246" y="4648" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Store Manager now owns day-to-day</text>
-<text x="246" y="4667" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">execution of the process detailed in</text>
-<text x="246" y="4687" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">§3.6.1 Production Lab (separate</text>
-<text x="246" y="4707" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">flowchart).</text>
-<rect x="220" y="4781" width="460" height="60" rx="30" ry="30" fill="#743014" stroke="#442D1C" stroke-width="2"/>
-<text x="450" y="4817" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Fully Onboarded — Independent Operation Begins</text>
-<line x1="450" y1="67" x2="450" y2="107" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="245" x2="450" y2="285.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="521.5" x2="450" y2="561.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="719.5" x2="450" y2="759.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="917.5" x2="450" y2="957.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1034.5" x2="450" y2="1074.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1138.5" x2="450" y2="1178.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1356.5" x2="450" y2="1396" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1690" x2="450" y2="1730.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1860.5" x2="450" y2="1900.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="1980.5" x2="450" y2="2020.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2217.5" x2="450" y2="2257.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2387.5" x2="450" y2="2449.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2724.5" x2="450" y2="2764.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="2894.5" x2="450" y2="2956.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3056.5" x2="450" y2="3096" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3160" x2="450" y2="3200" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3264" x2="450" y2="3304" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3434" x2="450" y2="3474" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3574" x2="450" y2="3614" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3744" x2="450" y2="3784" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3850" x2="450" y2="3890" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="3970" x2="450" y2="4010" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4090" x2="450" y2="4130" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4263" x2="450" y2="4302.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4421.5" x2="450" y2="4461.5" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4561.5" x2="450" y2="4601" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
-<line x1="450" y1="4741" x2="450" y2="4781" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="450" y="76" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Vacancy Trigger Occurs</text>
+<line x1="450" y1="100" x2="450" y2="144" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="144" width="460" height="127" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="144" width="7" height="127" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="171" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">1. Confirm Budget &amp; Need</text>
+<text x="242" y="191" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Resignation, growth, or promotion triggers</text>
+<text x="242" y="211" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">the vacancy. Owner confirms the</text>
+<text x="242" y="231" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">$3,500,000/mo role (§3.3.2) is still</text>
+<text x="242" y="251" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">budgeted before opening it.</text>
+<line x1="450" y1="271" x2="450" y2="315" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="315" width="460" height="147" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="315" width="7" height="147" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="342" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">2. Define Screening Filters</text>
+<text x="242" y="362" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Fix the pass/fail bar before posting anything:</text>
+<text x="242" y="382" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• 2+ years restaurant/retail supervisory experience</text>
+<text x="242" y="402" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Full availability for rotating shifts, incl. weekends</text>
+<text x="242" y="422" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Basic P&amp;L / inventory literacy</text>
+<text x="242" y="442" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Willing to complete a background &amp; reference check</text>
+<line x1="450" y1="462" x2="450" y2="506" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="506" width="460" height="107" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="506" width="7" height="107" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="533" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">3. Post the Vacancy</text>
+<text x="242" y="553" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Computrabajo + LinkedIn (paid listings)</text>
+<text x="242" y="573" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Bogotá hospitality Facebook/Instagram groups</text>
+<text x="242" y="593" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Internal referrals (referral bonus applies)</text>
+<line x1="450" y1="613" x2="450" y2="657" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="657" width="460" height="127" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="657" width="7" height="127" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="684" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">4. Publish Promoted LinkedIn Listing</text>
+<text x="242" y="704" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">COP $150,000 total advertising budget. Not an</text>
+<text x="242" y="724" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">official fixed LinkedIn rate — LinkedIn lets you set a</text>
+<text x="242" y="744" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">total budget and the promotion stops once that</text>
+<text x="242" y="764" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">limit is reached.</text>
+<line x1="450" y1="784" x2="450" y2="828" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M220,906 L640,906 A39.0,39.0 0 0 0 640,828 L220,828 Z" fill="#F6EBD6" stroke="#6B4622" stroke-width="2.5"/>
+<text x="442" y="860" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#6B4622">Application Window Open</text>
+<text x="442" y="877" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">10 business days, or until 15 qualified applications</text>
+<line x1="450" y1="906" x2="450" y2="950" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="950" width="460" height="47" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="950" width="7" height="47" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="977" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">5. Receive Applications</text>
+<line x1="450" y1="997" x2="450" y2="1041" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="1041" width="460" height="147" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="1041" width="7" height="147" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="1068" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">6. Score CVs Against the Rubric</text>
+<text x="242" y="1088" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Minimum passing score to advance: 70/100.</text>
+<text x="242" y="1108" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Experience &amp; track record — 40 pts</text>
+<text x="242" y="1128" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Shift availability — 20 pts</text>
+<text x="242" y="1148" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• P&amp;L / inventory literacy — 20 pts</text>
+<text x="242" y="1168" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• References &amp; background flag — 20 pts</text>
+<line x1="450" y1="1188" x2="450" y2="1232" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="1232" width="460" height="207" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="1232" width="7" height="207" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="1259" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">7. Verify CV Accuracy</text>
+<text x="242" y="1279" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Verify education, work experience,</text>
+<text x="242" y="1299" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">certifications and references.</text>
+<text x="242" y="1319" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Contact previous employers to confirm position</text>
+<text x="242" y="1339" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">  and employment dates</text>
+<text x="242" y="1359" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Contact universities/institutions to verify degrees</text>
+<text x="242" y="1379" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Verify certificates with the issuing institution</text>
+<text x="242" y="1399" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Contact the candidate's professional references</text>
+<text x="242" y="1419" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">• Compare CV info against interview answers</text>
+<line x1="450" y1="1439" x2="450" y2="1483" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polygon points="450,1483 680,1548.0 450,1613 220,1548.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="1554.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">CV Accurate &amp; Verifiable?</text>
+<text x="490" y="1538.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<rect x="790" y="1504.5" width="330" height="87" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="1504.5" width="7" height="87" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="1531.5" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Reject CV</text>
+<text x="812" y="1551.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Discard this CV; continue scoring the</text>
+<text x="812" y="1571.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">remaining applications in the batch.</text>
+<path d="M680,1548.0 L790,1548.0" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<text x="735" y="1538.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<path d="M1120,1548.0 L1160,1548.0 L1160,1041 L680,1041" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<line x1="450" y1="1613" x2="450" y2="1657" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="1657" width="460" height="67" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="1657" width="7" height="67" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="1684" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">8. Shortlist Qualified Candidates</text>
+<text x="242" y="1704" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Target: 5–8 candidates scoring 70+.</text>
+<line x1="450" y1="1724" x2="450" y2="1768" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="1768" width="460" height="147" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="1768" width="7" height="147" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="1795" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">9. First Interview</text>
+<text x="242" y="1815" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">30–40 min screen with the owner: experience,</text>
+<text x="242" y="1835" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">availability, salary expectations.</text>
+<text x="242" y="1855" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Soft skills evaluated: Leadership, Communication,</text>
+<text x="242" y="1875" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Teamwork, Customer service, Problem-solving,</text>
+<text x="242" y="1895" font-family="'Raleway', Arial, sans-serif" font-size="13.5" fill="#442D1C">Adaptability, Conflict management.</text>
+<line x1="450" y1="1915" x2="450" y2="1959" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polygon points="450,1959 680,2024.0 450,2089 220,2024.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="2030.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Meets Job Requirements?</text>
+<text x="450" y="2105" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">Technical qualifications + soft skills</text>
+<text x="490" y="2014.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<rect x="790" y="1980.5" width="330" height="87" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="1980.5" width="7" height="87" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="2007.5" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Reject &amp; Notify</text>
+<text x="812" y="2027.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Candidate is notified; return to</text>
+<text x="812" y="2047.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shortlist for the next candidate.</text>
+<path d="M680,2024.0 L790,2024.0" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<text x="735" y="2014.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<path d="M1120,2024.0 L1160,2024.0 L1160,1657 L680,1657" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<line x1="450" y1="2089" x2="450" y2="2133" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="2133" width="460" height="167" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="2133" width="7" height="167" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="2160" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">10. Practical Assessment</text>
+<text x="242" y="2180" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Given a sample high-season week and P&amp;L</text>
+<text x="242" y="2200" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">snapshot (§3.5.1), candidate plans staffing and</text>
+<text x="242" y="2220" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">cost cuts. Leadership, customer-service &amp;</text>
+<text x="242" y="2240" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">problem-solving scenario: a customer complains</text>
+<text x="242" y="2260" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">about an incorrect order while two employees are</text>
+<text x="242" y="2280" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">having a disagreement — how would you handle it?</text>
+<line x1="450" y1="2300" x2="450" y2="2344" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polygon points="450,2344 680,2409.0 450,2474 220,2409.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="2415.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Passes Assessment?</text>
+<text x="450" y="2490" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" font-style="italic" fill="#9D9167">Meets the minimum evaluation criteria?</text>
+<text x="490" y="2399.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<rect x="790" y="2365.5" width="330" height="87" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="2365.5" width="7" height="87" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="2392.5" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Reject &amp; Notify</text>
+<text x="812" y="2412.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Candidate is notified; return to</text>
+<text x="812" y="2432.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shortlist for the next candidate.</text>
+<path d="M680,2409.0 L790,2409.0" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<text x="735" y="2399.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<path d="M1120,2409.0 L1160,2409.0 L1160,1657 L680,1657" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<line x1="450" y1="2474" x2="450" y2="2518" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="2518" width="460" height="87" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="2518" width="7" height="87" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="2545" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">11. Final Interview</text>
+<text x="242" y="2565" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Deeper conversation with the owner on culture fit</text>
+<text x="242" y="2585" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">and long-term commitment.</text>
+<line x1="450" y1="2605" x2="450" y2="2649" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="2649" width="460" height="47" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="2649" width="7" height="47" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="2676" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">12. Select the Best Candidate</text>
+<line x1="450" y1="2696" x2="450" y2="2740" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="2740" width="460" height="47" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="2740" width="7" height="47" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="2767" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">13. Submit Background Check &amp; Verify References</text>
+<line x1="450" y1="2787" x2="450" y2="2831" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polygon points="450,2831 680,2896.0 450,2961 220,2896.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="2902.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Background Check Clear?</text>
+<text x="490" y="2886.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<rect x="790" y="2852.5" width="330" height="87" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="2852.5" width="7" height="87" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="2879.5" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Try Next Finalist</text>
+<text x="812" y="2899.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Background check failed; move to the next</text>
+<text x="812" y="2919.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">finalist on the shortlist and rerun this step.</text>
+<path d="M680,2896.0 L790,2896.0" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<text x="735" y="2886.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<path d="M1120,2896.0 L1160,2896.0 L1160,2740 L680,2740" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<line x1="450" y1="2961" x2="450" y2="3005" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="3005" width="460" height="107" rx="12" ry="12" fill="#FFFDF8" stroke="#743014" stroke-width="2"/>
+<rect x="220" y="3005" width="7" height="107" rx="3" ry="3" fill="#743014"/>
+<text x="242" y="3032" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">14. Sign Employment Contract</text>
+<text x="242" y="3052" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">$3,500,000/mo, benefits, and start date — presented</text>
+<text x="242" y="3072" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">and signed in the same meeting, now that the</text>
+<text x="242" y="3092" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">background check is already clear.</text>
+<line x1="450" y1="3112" x2="450" y2="3156" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<polygon points="450,3156 680,3221.0 450,3286 220,3221.0" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="3227.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#743014">Candidate Signs?</text>
+<text x="490" y="3211.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#2E7D4F">Yes</text>
+<rect x="790" y="3177.5" width="330" height="87" rx="12" ry="12" fill="#E8D1A7" stroke="#84592B" stroke-width="2"/>
+<rect x="790" y="3177.5" width="7" height="87" rx="3" ry="3" fill="#743014"/>
+<text x="812" y="3204.5" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">No: Contact Next Finalist</text>
+<text x="812" y="3224.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Offer the role to the next finalist; return to</text>
+<text x="812" y="3244.5" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Background Check to clear them first.</text>
+<path d="M680,3221.0 L790,3221.0" fill="none" stroke="#743014" stroke-width="2.5" marker-end="url(#arrow-acento)"/>
+<text x="735" y="3211.0" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="15" font-weight="700" fill="#B3261E">No</text>
+<path d="M1120,3221.0 L1160,3221.0 L1160,2740 L680,2740" fill="none" stroke="#743014" stroke-width="2.5" stroke-dasharray="7,5" marker-end="url(#arrow-acento)"/>
+<line x1="450" y1="3286" x2="450" y2="3330" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<ellipse cx="450" cy="3330" rx="230" ry="14" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<path d="M220,3330 A230,14 0 0 0 680,3330 L680,3396 A230,14 0 0 1 220,3396 Z" fill="#F6EBD6" stroke="#743014" stroke-width="2.5"/>
+<text x="450" y="3355" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#743014">15. File Candidate Record</text>
+<text x="450" y="3371" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">Payroll registration, background-check file,</text>
+<text x="450" y="3387" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="12" fill="#442D1C">references</text>
+<line x1="450" y1="3396" x2="450" y2="3440" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="3440" width="460" height="67" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="3440" width="7" height="67" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="3467" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">16. Officially Hired</text>
+<text x="242" y="3487" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Employment begins; onboarding continues below.</text>
+<line x1="450" y1="3507" x2="450" y2="3551" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="3551" width="460" height="87" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="3551" width="7" height="87" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="3578" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">17. Day 1 Orientation</text>
+<text x="242" y="3598" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Policies, the POS/MIS systems (§3.8), and the</text>
+<text x="242" y="3618" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">warranty claim process (§3.4.3).</text>
+<line x1="450" y1="3638" x2="450" y2="3682" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="3682" width="460" height="87" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="3682" width="7" height="87" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="3709" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">18. Week 1 Shadow Shifts</text>
+<text x="242" y="3729" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Shadows the outgoing Store Manager or a senior</text>
+<text x="242" y="3749" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Associate across a high- and a low-season shift.</text>
+<line x1="450" y1="3769" x2="450" y2="3813" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="3813" width="460" height="87" rx="12" ry="12" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<rect x="220" y="3813" width="7" height="87" rx="3" ry="3" fill="#84592B"/>
+<text x="242" y="3840" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">19. 30/60/90-Day Performance Review</text>
+<text x="242" y="3860" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Checked against the sales-growth KPIs already</text>
+<text x="242" y="3880" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">defined in §3.3.5 Controlling.</text>
+<line x1="450" y1="3900" x2="450" y2="3944" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="3944" width="460" height="140" rx="10" ry="10" fill="#FFFDF8" stroke="#84592B" stroke-width="2"/>
+<line x1="232" y1="3944" x2="232" y2="4084" stroke="#84592B" stroke-width="2"/>
+<line x1="668" y1="3944" x2="668" y2="4084" stroke="#84592B" stroke-width="2"/>
+<text x="246" y="3971" font-family="'Raleway', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#6B4622">Run Daily Production Cycle</text>
+<text x="246" y="3991" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">Store Manager now owns day-to-day</text>
+<text x="246" y="4010" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">execution of the process detailed in</text>
+<text x="246" y="4030" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">§3.6.1 Production Lab (separate</text>
+<text x="246" y="4050" font-family="'Raleway', Arial, sans-serif" font-size="14" fill="#442D1C">flowchart).</text>
+<line x1="450" y1="4084" x2="450" y2="4128" stroke="#84592B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="220" y="4128" width="460" height="60" rx="30" ry="30" fill="#743014" stroke="#442D1C" stroke-width="2"/>
+<text x="450" y="4164" text-anchor="middle" font-family="'Raleway', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFDF8">Fully Onboarded — Independent Operation Begins</text>
 </svg>
