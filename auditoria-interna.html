@@ -1409,34 +1409,35 @@
                 <p>Maximum production capacity starts with how long it actually takes to build one d&ouml;ner
                     kebab at the assembly station: reading the order back to confirm it, carving meat from the
                     vertical spit, warming the pita bread, adding toppings, and wrapping the order &mdash; plus,
-                    for Combos, portioning the already-fried fries and pouring the drink. Confirming the order
-                    is a fixed cost per order regardless of size; carving and topping time scale slightly with
-                    size; toasting the bread does not.</p>
+                    for Combos, frying a fresh portion of fries to order and pouring the drink. Confirming the
+                    order and toasting the bread are a fixed cost per order regardless of size; carving,
+                    topping, wrapping and frying time scale with size.</p>
                 <div class="matrix-table-wrap">
                     <table class="matrix-table">
                         <thead>
                             <tr><th>Station step</th><th>Small</th><th>Medium</th><th>Large</th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>Read &amp; confirm the order</td><td>15 sec</td><td>15 sec</td><td>15 sec</td></tr>
-                            <tr><td>Carve meat from the spit</td><td>25 sec</td><td>30 sec</td><td>35 sec</td></tr>
-                            <tr><td>Warm the pita bread</td><td>45 sec</td><td>45 sec</td><td>45 sec</td></tr>
-                            <tr><td>Add toppings &amp; sauce</td><td>35 sec</td><td>40 sec</td><td>45 sec</td></tr>
-                            <tr><td>Wrap &amp; pack</td><td>30 sec</td><td>30 sec</td><td>30 sec</td></tr>
-                            <tr class="matrix-total"><td>Total &mdash; Without Combo</td><td>150 sec (2.5 min)</td><td>160 sec (~2.7 min)</td><td>170 sec (~2.8 min)</td></tr>
-                            <tr><td>+ Portion fries &amp; pour drink (Combo only)</td><td>30 sec</td><td>30 sec</td><td>30 sec</td></tr>
-                            <tr class="matrix-total"><td>Total &mdash; Combo</td><td>180 sec (3.0 min)</td><td>190 sec (~3.2 min)</td><td>200 sec (~3.3 min)</td></tr>
+                            <tr><td>Read &amp; confirm the order</td><td>30 sec</td><td>30 sec</td><td>30 sec</td></tr>
+                            <tr><td>Carve meat from the spit</td><td>45 sec</td><td>60 sec</td><td>75 sec</td></tr>
+                            <tr><td>Warm the pita bread</td><td>90 sec</td><td>90 sec</td><td>90 sec</td></tr>
+                            <tr><td>Add toppings &amp; sauce</td><td>60 sec</td><td>90 sec</td><td>120 sec</td></tr>
+                            <tr><td>Wrap &amp; pack</td><td>75 sec</td><td>90 sec</td><td>105 sec</td></tr>
+                            <tr class="matrix-total"><td>Total &mdash; Without Combo</td><td>300 sec (5.0 min)</td><td>360 sec (6.0 min)</td><td>420 sec (7.0 min)</td></tr>
+                            <tr><td>+ Fry fresh fries &amp; pour drink (Combo only)</td><td>210 sec</td><td>240 sec</td><td>270 sec</td></tr>
+                            <tr class="matrix-total"><td>Total &mdash; Combo</td><td>510 sec (8.5 min)</td><td>600 sec (10.0 min)</td><td>690 sec (~11.5 min)</td></tr>
                         </tbody>
                     </table>
                 </div>
-                <p style="font-size:0.85rem; opacity:0.75; margin-top:-8px;">Frying is done ahead in batches on
-                    the fryer running in parallel, so it doesn't add to the per-order assembly line &mdash;
-                    only plating the already-fried portion does. These times assume one Associate working the
-                    steps in sequence, not a multi-station relay, which is why they run longer than a bare sum
-                    of each individual motion. Finance (3.5.2) plans on a 100% Medium D&ouml;ner Combo product
-                    mix, so capacity is sized on that same product: assembly takes
-                    <strong>190 seconds (&asymp;3.2 minutes) per order</strong> (3.6.1 Production Lab), the
-                    figure used to size capacity below.</p>
+                <p style="font-size:0.85rem; opacity:0.75; margin-top:-8px;">Fries are cut and fried to order,
+                    not pre-fried in batches &mdash; a fresh basket needs roughly 4 minutes at temperature, which
+                    is most of what separates this from a fast-casual-chain assembly time. These times assume
+                    one Associate working the steps in sequence, not a multi-station relay, which is also why
+                    they run longer than a bare sum of each individual motion. Finance (3.5.2) plans on a 100%
+                    Medium D&ouml;ner Combo product mix, so capacity is sized on that same product: assembly
+                    takes <strong>600 seconds (10 minutes) per order</strong> (3.6.1 Production Lab), the figure
+                    used to size capacity below &mdash; and the figure the Fast Service Guarantee&rsquo;s
+                    10-minute promise (3.4.3) is actually built on, not an arbitrary round number.</p>
 
                 <h4 style="margin-top:20px; margin-bottom:10px;">Maximum Production Capacity</h4>
                 <div class="matrix-table-wrap">
@@ -1445,18 +1446,20 @@
                             <tr><th>Shift</th><th>Hours</th><th>Associates on Assembly</th><th>Capacity per Hour</th><th>Max Units per Shift</th></tr>
                         </thead>
                         <tbody>
-                            <tr><td>Shift 1 (11 AM&ndash;6 PM)</td><td>7 h</td><td>2</td><td>~38 units/h</td><td>~266 units</td></tr>
-                            <tr><td>Shift 2 (6 PM&ndash;1 AM)</td><td>7 h</td><td>2</td><td>~38 units/h</td><td>~266 units</td></tr>
-                            <tr class="matrix-total"><td>Daily baseline max</td><td>14 h</td><td>&mdash;</td><td>&mdash;</td><td>~532 units/day</td></tr>
+                            <tr><td>Shift 1 (11 AM&ndash;6 PM)</td><td>7 h</td><td>2</td><td>~12 units/h</td><td>~84 units</td></tr>
+                            <tr><td>Shift 2 (6 PM&ndash;1 AM)</td><td>7 h</td><td>2</td><td>~12 units/h</td><td>~84 units</td></tr>
+                            <tr class="matrix-total"><td>Daily baseline max</td><td>14 h</td><td>&mdash;</td><td>&mdash;</td><td>~168 units/day</td></tr>
                         </tbody>
                     </table>
                 </div>
-                <p class="job-about" style="margin-top:12px;">During rush periods, the third associate can
-                    temporarily join the assembly line, lifting throughput to roughly 57 units/hour and a
-                    theoretical peak of about 400 units per shift (~800/day). This surge capacity isn't meant
-                    to be sustained &mdash; it's a ceiling for short demand spikes, not the planning baseline
-                    above. Even the baseline (~532/day) comfortably covers every scenario's daily demand,
-                    including the Optimistic case's 220 combos/day on a high-season day (3.5.2).</p>
+                <p class="job-about" style="margin-top:12px;">The baseline (~168/day) still covers the
+                    Realistic scenario&rsquo;s 150 combos/day high-season demand, but with a thinner margin
+                    than a faster assembly line would allow. The Optimistic scenario&rsquo;s 220/day high-season
+                    demand is built assuming the third Associate, lifting throughput to roughly 18 units/hour
+                    and a peak of about 126 units per shift (~252/day) &mdash; which is exactly why that
+                    Associate&rsquo;s $15,600,000/yr cost is carried as a year-round fixed hire under Optimistic
+                    in 3.5.2, not an occasional surge add-on. For the Realistic and Pessimistic scenarios, the
+                    third Associate remains a true rush-period ceiling, not the planning baseline.</p>
             </div>
 
             <div class="subseccion" id="section-3-4-3">
@@ -2930,7 +2933,8 @@
                 <h3>3.6.1 Production Lab</h3>
                 <p>The flow splits into two lanes: a weekly-cadence supply chain that keeps the kitchen
                     stocked, and the per-order kitchen line that reads the order back, then turns stock into a
-                    served combo in about 3.2 minutes. Sub-lanes mark who is responsible for each step (Store
+                    served combo in about 10 minutes &mdash; most of that time is the fresh fryer batch, not the
+                    hand-assembly steps. Sub-lanes mark who is responsible for each step (Store
                     Manager for purchasing,
                     Store Associates for everything else), and every box below carries the time and/or weight
                     David&rsquo;s process and capacity decisions call for.</p>
@@ -2939,18 +2943,18 @@
                     <h4>Technical Sheet</h4>
                     <div class="job-meta">
                         <span><strong>Process:</strong> Production Lab &mdash; Medium D&ouml;ner Kebab Combo</span>
-                        <span><strong>Objective:</strong> Turn purchased inventory into a served combo within the &asymp;3.2-minute kitchen-line target, with full traceability from purchase to POS log</span>
+                        <span><strong>Objective:</strong> Turn purchased inventory into a served combo within the &asymp;10-minute kitchen-line target, with full traceability from purchase to POS log</span>
                         <span><strong>Scope:</strong> From the weekly purchasing cycle through the per-order kitchen line to service handoff</span>
                         <span><strong>Responsible:</strong> Store Manager &mdash; purchasing decisions; Store Associates &mdash; receiving, storage, prep, and the kitchen line</span>
                         <span><strong>Date:</strong> 2026-10-05</span>
-                        <span><strong>Version:</strong> 2.1</span>
+                        <span><strong>Version:</strong> 2.2</span>
                         <span><strong>Validation:</strong> Time/weight figures reused verbatim from 3.4.2 costing; pending a walkthrough with the Store Associates who run the line</span>
                     </div>
                 </div>
 
                 <figure class="flowchart-figure">
                     <img src="imagenes/graficas/production-lab-flowchart.svg"
-                        alt="Production Lab flowchart for the Medium Döner Kebab Combo, two lanes with swimlanes. Supply Chain (weekly cadence) — Store Manager sub-lane: weekly cycle begins; purchasing (meat 2x/week, produce 3x/week, dry goods 1x/week). Store Associate (Prep) sub-lane: receiving and quality check (~15 min/delivery, meat ≤4°C); decision — meets QC standard? If no, reject and request replacement from the supplier, loop back to receiving and quality check; if yes, continue; storage (refrigerated/frozen/pantry by item); delay symbol — marination wait, 12-24h before the cone goes on the rotisserie; pre-shift prep (~45-60 min before opening, cone ~8-10 kg) — loops back to purchasing for the next weekly cycle, and also feeds into the Kitchen Line. Kitchen Line (per order, ~3.2 min) — Store Associate (Line) sub-lane: order received (POS); read and confirm the order — items, size and customizations (15 sec); cooking (continuous, ~2-3h per cone); carve (30 sec, 150 g); warm pita (45 sec, 100 g); add toppings (40 sec: lettuce 25 g, tomato 30 g, onion 15 g, sauce 35 g); wrap (30 sec); portion sides (30 sec: fries 100 g, soda 400 ml); packaging; document symbol — print receipt with the referral QR code (3.4.4); database symbol — log sale in POS/MIS (3.8), feeding the R&D data sources in 3.7.1; service handoff, total ~190 sec / 3.2 min from order received.">
+                        alt="Production Lab flowchart for the Medium Döner Kebab Combo, two lanes with swimlanes. Supply Chain (weekly cadence) — Store Manager sub-lane: weekly cycle begins; purchasing (meat 2x/week, produce 3x/week, dry goods 1x/week). Store Associate (Prep) sub-lane: receiving and quality check (~15 min/delivery, meat ≤4°C); decision — meets QC standard? If no, reject and request replacement from the supplier, loop back to receiving and quality check; if yes, continue; storage (refrigerated/frozen/pantry by item); delay symbol — marination wait, 12-24h before the cone goes on the rotisserie; pre-shift prep (~45-60 min before opening, cone ~8-10 kg) — loops back to purchasing for the next weekly cycle, and also feeds into the Kitchen Line's Read & Confirm Order step. Kitchen Line (per order, ~10 min) — Store Associate (Line) sub-lane: order received (POS); read and confirm the order — items, size and customizations (30 sec); cooking (continuous, ~2-3h per cone); carve (60 sec, 150 g); warm pita (90 sec, 100 g); add toppings (90 sec: lettuce 25 g, tomato 30 g, onion 15 g, sauce 35 g); wrap (90 sec); fry fresh fries and pour the drink, cooked to order rather than pre-batched (240 sec: fries 100 g, soda 400 ml); packaging; document symbol — print receipt with the referral QR code (3.4.4); database symbol — log sale in POS/MIS (3.8), feeding the R&D data sources in 3.7.1; service handoff, total ~600 sec / 10 min from order received.">
                     <figcaption>Production Lab flowchart &mdash; Medium D&ouml;ner Kebab Combo, from purchasing to service.</figcaption>
                     <ul class="flow-legend">
                         <li><span class="fl-swatch fl-terminator"></span> Terminator &mdash; start / end</li>
@@ -2964,10 +2968,11 @@
                 </figure>
 
                 <p style="font-size:0.85rem; opacity:0.75; margin-top:14px;">Capacity: 2 Associates on the
-                    line run &asymp;38 combos/hour (&asymp;266/shift); a 3rd Associate lifts that to &asymp;57/hour
-                    for surge periods, the extra staffing costed into the Optimistic scenario in 3.5.2.
-                    Quality control happens at two points: Receiving (temperature/expiry/weight) and the
-                    warranties in 3.4.3 (order accuracy, cleanliness) at the point of service.</p>
+                    line run &asymp;12 combos/hour (&asymp;84/shift); a 3rd Associate lifts that to &asymp;18/hour,
+                    the staffing level the Optimistic scenario in 3.5.2 actually plans on year-round, not just
+                    for occasional rush periods. Quality control happens at two points: Receiving
+                    (temperature/expiry/weight) and the warranties in 3.4.3 (order accuracy, cleanliness) at
+                    the point of service.</p>
             </div>
         </div>
 
@@ -3079,9 +3084,10 @@
                     </thead>
                     <tbody>
                         <tr class="matrix-group"><td colspan="4">Strengths</td></tr>
-                        <tr><td>1. Efficient assembly line at &asymp;3.2 min per order (Medium Combo,
-                            3.6.1) with ~532 units/day baseline capacity (3.4.2), well above peak
-                            demand</td><td>0.14</td><td>4</td><td>0.56</td></tr>
+                        <tr><td>1. Fresh-to-order assembly line &mdash; fries fried per order, not
+                            pre-batched (&asymp;10 min per order, Medium Combo, 3.6.1) &mdash; with ~168
+                            units/day baseline capacity (3.4.2), enough to cover planned demand in every
+                            scenario</td><td>0.14</td><td>4</td><td>0.56</td></tr>
                         <tr><td>2. Store on the Calle 72 corridor next to the new Metro Line 1 and
                             TransMilenio station, a node under redevelopment (Decreto 242/2026) where none of
                             the three rivals is located (2.2.1, 2.5)</td><td>0.11</td><td>3</td><td>0.33</td></tr>
